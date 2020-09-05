@@ -31,9 +31,9 @@
 		"export_csv"					: "Exportar a CSV",
 		"export_json"					: "Exportar a JSON",
 		"captcha_placeholder"			: "Texto Captcha",
-		"loading"						: "Cargando..",
+		"loading"						: "Cargando...",
 		"view_more"						: "Ver más",
-		"view_x_more"					: "Ver más %s ..",
+		"view_x_more"					: "Ver más %s ...",
 		"clipboard_copy"				: "Copiar al portapapeles",
 		"verified"						: "Verificado",
 		"terms_and_conditions"			: "Términos y condiciones",
@@ -68,7 +68,7 @@
 		},
 
 		"menu": {
-			"home"						: "Home",
+			"home"						: "Inicio",
 			"logout"					: "Salir",
 			"settings"					: "Configuración",
 			"admin"						: "Admin",
@@ -86,7 +86,7 @@
 		"pagination": {
 			"previous"					: "Anterior",
 			"next"						: "Siguiente",
-			"results"					: "Mostrando %s-%s out of %s resultados."
+			"results"					: "Mostrando %s-%s de %s resultados."
 		},
 
 		"date": {
@@ -111,7 +111,7 @@
 			"months"					: "meses",
 			"year"						: "año",
 			"years"						: "años",
-			"time_ago"					: "%1$s %2$s ago",
+			"time_ago"					: "%1$s %2$s atrás",
 			"time_until"				: "%1$s %2$s hasta",
 
 			"long_days": {
@@ -173,22 +173,22 @@
 		"emails": {
 			"user_activation": {
 				"subject"				: "Bienvenido {{NAME}}! - Email de activación",
-				"body"					: "Hola {{NAME}},<br /><br />Bienvenido a bordo! <br /><br />Un paso más para completar tu registro,<br /><br />haz click en el siguiente link para registrar {{WEBSITE_TITLE}}<br /><br /><a href=\"{{ACTIVATION_LINK}}\">Activa tu cuenta</a><br /><br />Cordialmente {{WEBSITE_TITLE}}!"
+				"body"					: "Hola {{NAME}},<br /><br />Bienvenido a bordo! <br /><br />Un paso más para completar tu registro,<br />haz click en el siguiente link para Activar {{WEBSITE_TITLE}}<br /><br /><a href=\"{{ACTIVATION_LINK}}\">Activa tu cuenta</a><br /><br />{{WEBSITE_TITLE}}!"
 			},
 
 			"user_lost_password": {
 				"subject"				: "Resetea tu password - {{WEBSITE_TITLE}}",
-				"body"					: "Hola {{NAME}},<br /><br />Este es el link para resetear tu password: <a href=\"{{LOST_PASSWORD_LINK}}\">Resetear Password</a><br /><br />Si no solicitaste esta acción, puedes ignorar este email.<br /><br />Cordialmente {{WEBSITE_TITLE}}!"
+				"body"					: "Hola {{NAME}},<br /><br />Este es el link para resetear tu password: <a href=\"{{LOST_PASSWORD_LINK}}\">Resetear Password</a><br /><br />Si no solicitaste esta acción, puedes ignorar este email.<br /><br />Cordialmente, <br />{{WEBSITE_TITLE}}!"
 			},
 
 			"user_payment": {
 				"subject"				: "Pago recibido - {{WEBSITE_TITLE}}",
-				"body"					: "Hola,<br /><br />Esta es una confirmación que hemos recibido tu pago.<br /><br />Tu subscripción está vigente hasta el {{PACKAGE_EXPIRATION_DATE}}!<br /><br />Puedes verificar todos los  <a href=\"{{USER_PAYMENTS_LINK}}\">pagos</a> que has realizado, <a href=\"{{USER_PACKAGE_LINK}}\">cambiar tu subscripción</a> o <a href=\"{{USER_PACKAGE_LINK}}\">cancelarlo</a>.<br /><br />Cordialmente {{WEBSITE_TITLE}}!"
+				"body"					: "Hola,<br /><br />Esta es una confirmación de que hemos recibido tu pago.<br /><br />Tu subscripción está vigente hasta el {{PACKAGE_EXPIRATION_DATE}}!<br /><br />Puedes verificar todos los  <a href=\"{{USER_PAYMENTS_LINK}}\">pagos</a> que has realizado, <a href=\"{{USER_PACKAGE_LINK}}\">cambiar tu subscripción</a> o <a href=\"{{USER_PACKAGE_LINK}}\">cancelarlo</a>.<br /><br />Cordialmente,<br />{{WEBSITE_TITLE}}!"
 			},
 
 			"admin_new_user_notification": {
 				"subject"				: "Nuevo Usuario Registrado!",
-				"body"					: "Hey!<br /><br />Se ha registrado un nuevo usuario!<br /><br />Bienvenido <strong>%s</strong> con el <strong>%s</strong> email a tu website!"
+				"body"					: "Hey!<br /><br />Se ha registrado un nuevo usuario!<br /><br />Tu nuevo usuario <strong>%s</strong> con el <strong>%s</strong> email se ha regitrado!"
 			},
 
 			"admin_new_payment_notification": {
@@ -204,7 +204,7 @@
         "package_settings": {
 			"additional_global_domains" : "<i class=\"fa fa-fw fa-sm fa-globe mr-1\"></i> Dominios Globales Adicionales",
 			"additional_global_domains_help": "Tienes acceso a dominios extra para usar.",
-			"custom_url" 				: "<i class=\"fa fa-fw fa-sm fa-link mr-1\"></i> Back-half Personalizado",
+			"custom_url" 				: "<i class=\"fa fa-fw fa-sm fa-link mr-1\"></i> Link Personalizado",
 			"custom_url_help"			: "En vez de urls autogeneradas, como /a853we6, eliges tu propia url",
 			"deep_links"                : "<i class=\"fa fa-fw fa-sm fa-anchor mr-1\"></i> Deep linking",
 			"deep_links_help"			: "Ofrece la habilidad de entrar deep links, como: steam://rungameid/id",
@@ -216,7 +216,7 @@
 			"custom_branding_help"		: "Marca Blanca para el branding de tu Microweb",
 			"custom_colored_links"		: "<i class=\"fa fa-fw fa-sm fa-paint-brush mr-1\"></i> Color de tus links personalizados",
 			"custom_colored_links_help"	: "Puedes elegir el color para los links dentro de tu microweb.",
-			"statistics"				: "<i class=\"fa fa-fw fa-sm fa-chart-bar mr-1\"></i> Estadísticas Senicllas",
+			"statistics"				: "<i class=\"fa fa-fw fa-sm fa-chart-bar mr-1\"></i> Estadísticas Internas",
 			"statistics_help"			: "Accedes a estadísticas sencillas para todos tus links",
 			"google_analytics"			: "<i class=\"fab fa-fw fa-sm fa-google mr-1\"></i> Google Analytics",
 			"google_analytics_help"		: "Integración sencilla de google analytics integration para tus microwebs",
@@ -226,15 +226,15 @@
 			"custom_backgrounds_help"	: "Puedes elegir un fondo personalizado para tu microweb.",
 			"verified"					: "<i class=\"fa fa-fw fa-sm fa-check-circle mr-1\"></i> Marca de Verificado",
 			"verified_help"				: "Obten tu marca de verificado en tu microweb",
-			"scheduling"				: "<i class=\"fa fa-fw fa-sm fa-clock mr-1\"></i> Agenda de links",
+			"scheduling"				: "<i class=\"fa fa-fw fa-sm fa-clock mr-1\"></i> Botones Programables",
 			"scheduling_help"			: "Prepara todos tus links para que se publiquen cuando tu quieras",
 			"seo"						: "<i class=\"fa fa-fw fa-sm fa-search-plus mr-1\"></i> SEO",
 			"seo_help"					: "Personaliza la meta tags de tu microweb",
 			"utm"						: "<i class=\"fa fa-fw fa-sm fa-key mr-1\"></i> Parámetros UTM",
 			"utm_help"					: "Ajusta fácilmente los parámetros UTM para todas tus microwebs",
-			"socials"					: "<i class=\"fa fa-fw fa-sm fa-hashtag mr-1\"></i> Sociales",
+			"socials"					: "<i class=\"fa fa-fw fa-sm fa-hashtag mr-1\"></i> Redes Sociales",
 			"socials_help"				: "Agrega rápidamente al footer de tu microweb, links a tus redes sociales",
-			"fonts"						: "<i class=\"fa fa-fw fa-sm fa-pen-nib mr-1\"></i> Fonts",
+			"fonts"						: "<i class=\"fa fa-fw fa-sm fa-pen-nib mr-1\"></i> Fuentes",
 			"fonts_help"				: "Consigue multiples tipografías para usar en tu microweb",
 
 			"unlimited_projects_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Proyectos Ilimitadss",
@@ -284,14 +284,14 @@
 	},
 
 	"package": {
-		"breadcrumb"					: "Elige tu plan",
+		"breadcrumb"					: "Continuar con este plan",
 		"title"							: "Plan",
-		"header_new"					: "Elige tu plan",
-		"subheader_new"					: "Elige el plan más conveniente para ti.",
+		"header_new"					: "Continuar con este plan",
+		"subheader_new"					: "Elige el plan más conveniente.",
 		"header_renew"					: "Renueva tu plan",
-		"subheader_renew"				: "Elige un plan para renovar tu your subscripción.",
+		"subheader_renew"				: "Elige un plan para renovar tu suscripción.",
 		"header_upgrade"				: "Mejora tu plan",
-		"subheader_upgrade"				: "Selecciona un plan para mejorar tu subscripción.",
+		"subheader_upgrade"				: "Selecciona un plan para mejorar tu suscripción.",
 
 		"free": {
 			"price"						: "Gratis"
@@ -332,7 +332,7 @@
 			"subheader"					: "Estás a un paso.",
 
 			"trial_done"				: "Tu opción de prueba ya fue usada, no puedes renovar.",
-			"other_package_not_expired"	: "Tu plan actualno ha expirado, si comienzas tu prueba se sobreescribirá!",
+			"other_package_not_expired"	: "Tu plan actual no ha expirado, si comienzas tu prueba se sobreescribirá!",
 			"trial_start"				: "Comenzar mis %s días de prueba"
 		},
 
@@ -347,7 +347,7 @@
 			"payment_frequency"				: "Elige tu plan de pago",
 			"monthly"					: "Pagos Mensuales",
 			"annual"					: "Pagos Anuales",
-			"annual_savings"			: "Ahorraste %s %s",
+			"annual_savings"			: "Ahorras %s %s",
 			"lifetime"					: "Sin vencimiento",
 			"lifetime_help"				: "Un único pago",
 
@@ -372,7 +372,7 @@
 
 		"error_message": {
 			"code_invalid"				: "Este cupón no es válido.",
-			"code_used"					: "Ya se ha usado ese cupón de descuento.",
+			"code_used"					: "Ya se ha usado este cupón de descuento.",
 			"canceled_payment"			: "Parece que has cancelado el pago por alguna razón.",
 			"failed_payment"			: "Algo no funcionó como esperábamos, por favor prueba nuevamente y si el error continua contacta a Soporte Técnico.",
 			"offline_payment_proof_missing": "Debes subir un comprobante de pago antes de confirmar la orden de pago."
@@ -451,7 +451,7 @@
 
 		"success_message": {
 			"account_updated"			: "Tu cuenta fue actualizada!",
-			"subscription_canceled"     : "Tu subscripción fue cancelada!"
+			"subscription_canceled"     : "Tu suscripción fue cancelada!"
 		}
 	},
 
@@ -509,7 +509,7 @@
 	},
 
 	"account_package": {
-		"title"							: "Cuenta de Plan Package",
+		"title"							: "Plan de la cuenta",
 		"menu"							: "Plan",
 		"header"						: "Cuenta Package",
 
@@ -519,10 +519,10 @@
 		},
 
 		"cancel": {
-			"header"					: "Cancelar Subscripción",
-			"subheader"					: "Al cancelar tu subscripción no se realizaran mas pagos. <br /> Podrás acceder a las funcionalidades por las cuales pagaste hasta el día que expire.",
-			"cancel"					: "Cancelar Subscripción",
-			"confirm_message"			: "Estas seguro que quieres cancelar el próximo pago de tu subscripción?"
+			"header"					: "Cancelar Suscripción",
+			"subheader"					: "Al cancelar tu suscripción no se realizarán mas pagos. <br /> Podrás acceder a las funcionalidades por las cuales pagaste hasta el día que expire.",
+			"cancel"					: "Cancelar Suscripción",
+			"confirm_message"			: "Estas seguro que quieres cancelar el próximo pago de tu suscripción?"
 		},
 
 		"code": {
@@ -642,7 +642,7 @@
 			"email_placeholder"			: "email@dominio.com",
 			"password"					: "Password",
 			"password_placeholder"		: "Password",
-			"twofa_token"				: "Token para Dos-factores ",
+			"twofa_token"				: "Token para Autent. Dos-factores ",
 			"twofa_token_placeholder"	: "Token de la App de autenticación",
 			"remember_me"				: "Recuérdame",
 			"login"						: "Ingresar"
@@ -652,7 +652,7 @@
 			"register"					: "No tienes una cuenta? %s",
 			"register_help"				: "Registro",
 
-			"lost_password"				: "Perdí Password",
+			"lost_password"				: "Perdí el Password",
 			"resend_activation"			: "Reenviar Activación",
 			"facebook"					: "%s Facebook Login"
 		},
@@ -671,8 +671,8 @@
 	},
 
 	"lost_password": {
-		"title"							: "Perdí Password",
-		"header"						: "Perdí Password",
+		"title"							: "Perdí el Password",
+		"header"						: "Perdí el Password",
 		"return"						: "Regresar al Login",
 
 		"form": {
@@ -681,7 +681,7 @@
 		},
 
 		"notice_message": {
-			"success"					: "Enviamos un email a esa dirección si hay una cuenta asociada!"
+			"success"					: "Enviamos un email a esa dirección, si hay una cuenta asociada!"
 		}
 	},
 
@@ -714,7 +714,7 @@
 			"password"					: "Password",
 			"password_placeholder"		: "Password",
 			"repeat_password"			: "Repetir Password",
-			"accept"					: "Confirmo que he leído y comprendido los %s y %s del servicio.",
+			"accept"					: "Confirmo que soy Mayor de Edad y he leído y comprendido los %s y %s del servicio.",
 			"register"					: "Registrar"
 		},
 
@@ -731,7 +731,7 @@
 
 
 		"success_message": {
-			"registration"				: "Tu cuenta se ha creado, revisa tu email para activar tu cuenta utilizando el link de activación! ( Asegúrate de revisar tu CARPETA DE SPAM )",
+			"registration"				: "Tu cuenta se ha creado, revisa tu email para activar tu cuenta utilizando el link de activación! (Asegúrate de revisar tu CARPETA DE SPAM)",
 			"login"						: "Bienvenido a Microweb, estamos contentos de que estés a bordo!"
 		}
 	},
@@ -744,7 +744,7 @@
 		"header": {
 			"header"					: "Tu dashboard",
 			"package"					: "Tu Plan actual.",
-			"package_expiration_date"	: "Tu Plan expira",
+			"package_expiration_date"	: "Tu Plan expira el",
 			"renew"						: "Renovar / Mejorar",
 			"clicks"					: "Clicks Totales.",
 			"links"						: "Links Totales."
@@ -753,7 +753,7 @@
 		"projects": {
 			"header"					: "Tus Proyectos",
 			"subheader"					: "Un proyecto puede contener múltiples microwebs o links cortos.",
-			"create"					: "Crear Projecto",
+			"create"					: "Crear Proyecto",
 
 			"name"						: "Nombre",
 			"domain"					: "Dominio",
@@ -807,7 +807,7 @@
 
 			"settings_tab"					: "Configuración",
 			"links_tab"						: "Links",
-			"biolinks_settings"				: "Volver a Microwebv"
+			"biolinks_settings"				: "Volver a Microweb"
 		},
 
 		"settings": {
@@ -820,26 +820,26 @@
 			"url"							: "Url Corta",
 			"url_placeholder"				: "tu-url-alias",
 			"url_help"						: "Deja vacío para generar aleatorio.",
-			"schedule"						: "Agendar",
+			"schedule"						: "Programar Fecha",
 			"schedule_help"					: "Elige una fecha exacta para que el link empiece a funcionar.",
 			"start_date"					: "Fecha de inicio",
 			"end_date"						: "Fecha final",
 			"image"							: "Avatar",
 			"image_help"					: "",
-			"image_status"					: "Tu imagenfue elegida",
+			"image_status"					: "Tu imagen fue elegida",
 			"image_remove"					: "Borrar imagen",
 			"title"							: "Título",
 			"description"					: "Descripción",
             "text_color"                    : "Color de Texto",
 			"socials_color"					: "Color de Botones",
 			"background_type"				: "Tipo de Fondo",
-			"background_type_preset"		: "Preset",
+			"background_type_preset"		: "Predefinidos",
 			"background_type_color"			: "Color Personalizado",
 			"background_type_gradient"		: "Gradient Personalizado",
 			"background_type_gradient_color_one": "Color 1",
 			"background_type_gradient_color_two": "Color 2",
 			"background_type_image"			: "Image personalizada",
-			"display_verified"				: "Mostrar Marxa de Verificado",
+			"display_verified"				: "Mostrar Marca de Verificado",
 			"branding_header"				: "Branding",
 			"display_branding"				: "Mostrar Branding",
 			"branding": {
@@ -912,7 +912,7 @@
 				},
 
 				"youtube": {
-					"name"					: "Canal de Yputube",
+					"name"					: "Canal de YouTube",
 					"placeholder"			: "https://youtube.com/channel/id",
 					"icon"					: "fab fa-youtube"
 				},
@@ -963,7 +963,7 @@
 
 			"clicks_chart"					: "Cuadro de Clicks",
 			"impressions"					: "Impresiones",
-			"uniques"						: "Unicas",
+			"uniques"						: "Únicas",
 
 			"lastactivity"					: "Última actividad",
 			"lastactivity_help"				: "Aquí puedes ver las últimas visitas a tu link.",
@@ -1013,12 +1013,12 @@
 		},
 
 		"biolink": {
-			"name"                          : "Microweb.me bio link",
+			"name"                          : "Microweb.me/tu-nombre",
 			"icon"							: "fa fa-fw fa-hashtag",
 			"color"							: "#0089ff",
 
 			"image_alt"						: "Avatar",
-			"title_default"					: "Mi propia Microweb",
+			"title_default"					: "Microweb.me/tu-nombre",
 			"description_default"			: "",
 
 			"link": {
@@ -1091,9 +1091,9 @@
 	},
 
 	"index": {
-		"title"							: "Multiple Bio Links para Instagram",
-		"header"						: "Obtiene lo máximo de tu Microweb",
-		"subheader"						: "Crea links cortos, microwebs únicas y obtén estadísticas de tus visitantes.",
+		"title"							: "Microweb.me Potencia tus links!",
+		"header"						: "Obtiene el máximo de tu Microweb",
+		"subheader"						: "Crea microwebs únicas, links cortos y obtén estadísticas de tus visitantes.",
 		"sign_up"						: "⚡️ Comenzar ahora!",
 		"breadcrumb"					: "Inicio",
 		"is_custom_domain"				: "Dominio personalizado",
@@ -1110,17 +1110,17 @@
 
 		"presentation3": {
 			"header"					: "Microwebs & Links cortos",
-			"subheader"					: "Si! Puedes usar nuestro servicio solamente para urls cortas."
+			"subheader"					: "Nuestro servicio de urls cortas es muy útil para conocer mejor tus tráfico."
 		},
 
 		"presentation4": {
-			"header"					: "Trae toda tu creatividad a la vida",
+			"header"					: "Dale vida a tu creatividad!",
 			"subheader"					: "Agrega tu toque personalizado a tu microweb con nuestro sencillo y potente editor."
 		},
 
 		"presentation5": {
 			"header"					: "Estadísticas día a día",
-			"subheader"					: "Conoce mejor a tu audiencia con estadísticas detalladas y si no es suficiente, integra con Google Analytics."
+			"subheader"					: "Conoce mejor a tu audiencia con estadísticas internas detalladas y si no es suficiente, integra con Google Analytics."
 		},
 
 		"setup": {
@@ -1135,15 +1135,15 @@
 
 		"tools": {
 			"header"					: "Tus herramientas de Marketing Gratuitas 🔥",
-			"subheader"					: "Eligde de una amplia variedad de notificaciones.",
+			"subheader"					: "Elige de una amplia variedad de notificaciones.",
 
 			"preview"					: "Preview de Notificaciones",
 			"preview_description"		: "Elige cualquier tipo de notificaciones y previsualiza en vivo."
 		},
 
 		"pricing": {
-			"header"					: "Elige tu plan",
-			"subheader"					: "Elige un plan de acuerdo a tus necesidades."
+			"header"					: "Elige tu plan mensual o anual",
+			"subheader"					: "Elige el plan más conveniente."
 		}
 	},
 
@@ -1172,7 +1172,7 @@
 			"url"						: "Slug",
 			"url_placeholder"			: "url-categoria-de-pagina",
 			"title"						: "Título",
-			"description"				: "Description corta",
+			"description"				: "Descripción corta",
 			"icon"						: "Icono",
 			"icon_placeholder"			: "fa fa-plane",
 			"icon_help"					: "<a href=\"https://fontawesome.com/icons\">FontAwesome</a> icon class, deja vacío si no quieres ícono.",
@@ -1774,7 +1774,7 @@
 			"facebook"					: "Facebook Login",
 			"captcha"					: "Google Recaptcha",
 			"ads"						: "Ads",
-			"socials"					: "Sociales",
+			"socials"					: "Redes Sociales",
 			"smtp"						: "SMTP",
 			"custom"					: "JS / CSS Personalizados",
 			"email_notifications"		: "Notificación por Email",
@@ -1804,8 +1804,8 @@
 		},
 
 		"links": {
-			"shortener_is_enabled"		: "Activar el Systema Acortador de Links",
-			"shortener_is_enabled_help"	: "Activar el sistema acortador de links permitirá a los usuarios acortar links en sus proyectos.",
+			"shortener_is_enabled"		: "Activar el Sistema Acortador de Links",
+			"shortener_is_enabled_help"	: "Activar el Sistema Acortador de links permitirá a los usuarios acortar links en sus proyectos.",
 
 			"domains_is_enabled"		: "Activar el sistema de Dominios Personalizados",
 			"domains_is_enabled_help"	: "Activar esto permitirá a tus usuarios agregar sus propios dominios.",
