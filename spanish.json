@@ -2062,14 +2062,14 @@
 	},
 
 	"create_link_modal": {
-		"header"						: "Crear un Nuevo Link",
+		"header"						: "Crear un nuevo link corto",
 		"subheader"						: "Acorta todos los links que quieras de forma sencilla. Más configuraciones disponibles después de crear el link.",
 
 		"input": {
 			"location_url"				: "Url Larga",
 			"location_url_placeholder"	: "https://dominios.com/demo/url-larga-demo",
 			"url"						: "Url Corta",
-			"url_placeholder_custom"	: "tu-alias-personalizado",
+			"url_placeholder_custom"	: "https://microweb.me/alias-personalizado",
 			"url_placeholder"			: "generar un alias aleatorio",
 			"url_help"					: "Dejar vacío para generar uno aleatorio.",
 
@@ -2102,12 +2102,12 @@
 	},
 
 	"create_biolink_link_modal": {
-		"header"						: "Crear un Nuevo Link",
+		"header"						: "Crear un Nuevo Link Corto",
 		"subheader"						: "Agrega un nuevo link para tu microweb. Más configuraciones disponibles después de crear el link.",
 
 		"input": {
 			"url"						: "Url corta",
-			"url_placeholder"			: "tu-alias-personalizado",
+			"url_placeholder"			: "https://microweb.me/alias-personalizado",
 			"url_help"					: "Dejar vacío para generar uno aleatorio.",
 			"location_url"				: "Url Destino",
 			"location_url_placeholder"	: "https://dominio.com/demo/demo-url",
