@@ -744,7 +744,7 @@
 		"header": {
 			"header"					: "Tu dashboard",
 			"package"					: "Tu Plan actual.",
-			"package_expiration_date"	: "Tu Plan expira el",
+			"package_expiration_date"	: "tu plan expire",
 			"renew"						: "Renovar / Mejorar",
 			"clicks"					: "Clicks Totales.",
 			"links"						: "Links Totales."
