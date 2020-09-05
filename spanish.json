@@ -2123,8 +2123,8 @@
 			"image_help"				: "Dejar vacío si no quieres imagen miniatura.",
 			"border_radius"				: "Radio del Borde",
 			"border_radius_straight"	: "Recto",
-			"border_radius_round"		: "Redondo",
-			"border_radius_rounded"		: "Redondeado",
+			"border_radius_round"		: "Redondeado",
+			"border_radius_rounded"		: "Redondo",
 			"animation"					: "Animación",
 
 			"submit"					: "Agregar url"
