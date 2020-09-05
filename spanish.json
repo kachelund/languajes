@@ -1,0 +1,2273 @@
+{
+	"language_code": "es",
+
+	"global": {
+		"submit"						: "Enviar",
+		"create"						: "Crear",
+		"delete"						: "Borrar",
+		"edit"							: "Editar",
+		"view"							: "Ver",
+		"cancel"						: "Cancelar",
+		"update"						: "Actualizar",
+		"enable"						: "Habilitar",
+		"disable"						: "Deshabilitar",
+		"hidden"						: "Ocultar",
+		"login"							: "Ingresar",
+		"language"						: "Idioma",
+		"choose_language"				: "Elegir Idioma",
+		"theme_style"					: "Cambiar a Modo %s ",
+		"theme_style_light"				: "Claro",
+		"theme_style_dark"				: "Oscuro",
+		"close"							: "Cerrar",
+		"search"						: "Buscar",
+		"go_back_button"				: "Ir hacia atrás",
+		"no_data"						: "No hay datos disponibles..",
+		"date_selector"					: "Elegir Fecha",
+		"yes"							: "Si",
+		"no"							: "No",
+		"active"						: "Activo",
+		"disabled"						: "Deshabilitado",
+		"date_range_selector"			: "Elegir Fecha",
+		"export_csv"					: "Exportar a CSV",
+		"export_json"					: "Exportar a JSON",
+		"captcha_placeholder"			: "Texto Captcha",
+		"loading"						: "Cargando..",
+		"view_more"						: "Ver más",
+		"view_x_more"					: "Ver más %s ..",
+		"clipboard_copy"				: "Copiar al portapapeles",
+		"verified"						: "Verificado",
+		"terms_and_conditions"			: "Términos y condiciones",
+		"privacy_policy"				: "Política de privacidad",
+
+		"message_type": {
+			"error"						: "Error!",
+			"info"						: "Info!",
+			"success"					: "Éxito!"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Está seguro que desea borrar esto?",
+            "user_package_is_expired"   : "Tu suscripción expiró. Por favor, renueva tu suscripción o escribe a Servicio Técnico.",
+			"unlock_feature"			: "Activar esta función",
+			"locked_feature"			: "Esta función está bloqueada"
+		},
+
+		"success_message": {
+			"basic"						: "Tu solicitud fue realizada con éxito!",
+			"user_activated"			: "Tu cuenta está activa!"
+		},
+
+		"error_message": {
+			"directory_not_writable"	: "El directorio no se puede escribir <strong>%s</strong>",
+			"empty_fields"				: "Completa todos los campos!",
+			"invalid_captcha"			: "El código captcha no es válido!",
+			"invalid_file_type"			: "Tipo de archivo inválido!",
+			"file_upload"				: "Algo interrumpió la subida de imagen y no se pudo procesar.",
+			"invalid_csrf_token"		: "No se pudo completar la acción porque el protector ha espirado, prueba nuevamente!",
+			"basic"						: "No se pudo completar la acción!"
+		},
+
+		"menu": {
+			"home"						: "Home",
+			"logout"					: "Salir",
+			"settings"					: "Configuración",
+			"admin"						: "Admin",
+			"website"					: "Ver microweb",
+			"admin_others"				: "Otros"
+		},
+
+		"accessibility": {
+			"toggle_navigation"			: "Toggle navigation",
+			"logo_alt"					: "Logo de tu microweb",
+			"captcha_alt"				: "Captcha",
+			"captcha_input"				: "Campo de Captcha"
+		},
+
+		"pagination": {
+			"previous"					: "Anterior",
+			"next"						: "Siguiente",
+			"results"					: "Mostrando %s-%s out of %s resultados."
+		},
+
+		"date": {
+			"CHANGE_THOSE_AT_YOUR_OWN_RESPONSIBILITY": "",
+			"datetime_readable_format"	: "%1$s %2$s, %3$s",
+			"datetime_ymd_format"		: "%1$s-%2$s-%3$s",
+			"datetime_his_format"		: "%1$s:%2$s:%3$s",
+			"datetime_ymd_his_format"	: "%1$s-%2$s-%3$s %4$s:%5$s:%6$s",
+
+			"now"						: "ahora",
+			"today"						: "hoy",
+			"clear"						: "limpiar",
+			"second"					: "segundo",
+			"seconds"					: "segundos",
+			"minute"					: "minuto",
+			"minutes"					: "minutos",
+			"hour"						: "hora",
+			"hours"						: "horas",
+			"day"						: "día",
+			"days"						: "días",
+			"month"						: "mes",
+			"months"					: "meses",
+			"year"						: "año",
+			"years"						: "años",
+			"time_ago"					: "%1$s %2$s ago",
+			"time_until"				: "%1$s %2$s hasta",
+
+			"long_days": {
+				"1"						: "Lunes",
+				"2"						: "Martes",
+				"3"						: "Miércoles",
+				"4"						: "Jueves",
+				"5"						: "Viernes",
+				"6"						: "Sábado",
+				"7"						: "Domingo"
+			},
+
+			"short_days": {
+				"1"						: "Lun",
+				"2"						: "Mar",
+				"3"						: "Mier",
+				"4"						: "Jue",
+				"5"						: "Vie",
+				"6"						: "Sáb",
+				"7"						: "Dom"
+			},
+
+			"long_months": {
+				"1"						: "Enero",
+				"2"						: "Febrero",
+				"3"						: "Marzo",
+				"4"						: "Abril",
+				"5"						: "Mayo",
+				"6"						: "Junio",
+				"7"						: "Julio",
+				"8"						: "Agosto",
+				"9"						: "Septiembre",
+				"10"					: "Octubre",
+				"11"					: "Noviembre",
+				"12"					: "Diciembre"
+			},
+
+			"short_months": {
+				"1"						: "Ene",
+				"2"						: "Feb",
+				"3"						: "Mar",
+				"4"						: "Abr",
+				"5"						: "May",
+				"6"						: "Jun",
+				"7"						: "Jul",
+				"8"						: "Ago",
+				"9"						: "Sep",
+				"10"					: "Oct",
+				"11"					: "Nov",
+				"12"					: "Dic"
+			}
+		},
+
+        "number": {
+            "decimal_point"				: ".",
+            "thousands_separator"		: ","
+        },
+
+		"emails": {
+			"user_activation": {
+				"subject"				: "Bienvenido {{NAME}}! - Email de activación",
+				"body"					: "Hola {{NAME}},<br /><br />Bienvenido a bordo! <br /><br />Un paso más para completar tu registro,<br /><br />haz click en el siguiente link para registrar {{WEBSITE_TITLE}}<br /><br /><a href=\"{{ACTIVATION_LINK}}\">Activa tu cuenta</a><br /><br />Cordialmente {{WEBSITE_TITLE}}!"
+			},
+
+			"user_lost_password": {
+				"subject"				: "Resetea tu password - {{WEBSITE_TITLE}}",
+				"body"					: "Hola {{NAME}},<br /><br />Este es el link para resetear tu password: <a href=\"{{LOST_PASSWORD_LINK}}\">Resetear Password</a><br /><br />Si no solicitaste esta acción, puedes ignorar este email.<br /><br />Cordialmente {{WEBSITE_TITLE}}!"
+			},
+
+			"user_payment": {
+				"subject"				: "Pago recibido - {{WEBSITE_TITLE}}",
+				"body"					: "Hola,<br /><br />Esta es una confirmación que hemos recibido tu pago.<br /><br />Tu subscripción está vigente hasta el {{PACKAGE_EXPIRATION_DATE}}!<br /><br />Puedes verificar todos los  <a href=\"{{USER_PAYMENTS_LINK}}\">pagos</a> que has realizado, <a href=\"{{USER_PACKAGE_LINK}}\">cambiar tu subscripción</a> o <a href=\"{{USER_PACKAGE_LINK}}\">cancelarlo</a>.<br /><br />Cordialmente {{WEBSITE_TITLE}}!"
+			},
+
+			"admin_new_user_notification": {
+				"subject"				: "Nuevo Usuario Registrado!",
+				"body"					: "Hey!<br /><br />Se ha registrado un nuevo usuario!<br /><br />Bienvenido <strong>%s</strong> con el <strong>%s</strong> email a tu website!"
+			},
+
+			"admin_new_payment_notification": {
+				"subject"				: "Nuevo Pago via %s de %s %s!",
+				"body"					: "Hola!<br /><br />Un usuario acaba de pagar <strong>%s %s</strong> al website!<br /><br />Felicitaciones por la nueva venta! Click Aquí para ver el pago:"
+			}
+		},
+
+		"footer": {
+			"copyright"					: "Copyright &copy; %s %s"
+		},
+
+        "package_settings": {
+			"additional_global_domains" : "<i class=\"fa fa-fw fa-sm fa-globe mr-1\"></i> Dominios Globales Adicionales",
+			"additional_global_domains_help": "Tienes acceso a dominios extra para usar.",
+			"custom_url" 				: "<i class=\"fa fa-fw fa-sm fa-link mr-1\"></i> Back-half Personalizado",
+			"custom_url_help"			: "En vez de urls autogeneradas, como /a853we6, eliges tu propia url",
+			"deep_links"                : "<i class=\"fa fa-fw fa-sm fa-anchor mr-1\"></i> Deep linking",
+			"deep_links_help"			: "Ofrece la habilidad de entrar deep links, como: steam://rungameid/id",
+			"no_ads"                    : "<i class=\"fa fa-fw fa-sm fa-eye-slash mr-1\"></i> Sin Publicidad",
+			"no_ads_help"				: "No verás ninguna publicidad en la plataforma y tampoco en tu microweb",
+			"removable_branding"		: "<i class=\"fa fa-fw fa-sm fa-eye-slash mr-1\"></i> Remueve el Branding de Microweb",
+			"removable_branding_help"	: "Toda mención de Microweb será removida de todas tus microwebs creadas.",
+			"custom_branding"			: "<i class=\"fa fa-fw fa-sm fa-ad mr-1\"></i> Branding Personalizado",
+			"custom_branding_help"		: "Marca Blanca para el branding de tu Microweb",
+			"custom_colored_links"		: "<i class=\"fa fa-fw fa-sm fa-paint-brush mr-1\"></i> Color de tus links personalizados",
+			"custom_colored_links_help"	: "Puedes elegir el color para los links dentro de tu microweb.",
+			"statistics"				: "<i class=\"fa fa-fw fa-sm fa-chart-bar mr-1\"></i> Estadísticas Senicllas",
+			"statistics_help"			: "Accedes a estadísticas sencillas para todos tus links",
+			"google_analytics"			: "<i class=\"fab fa-fw fa-sm fa-google mr-1\"></i> Google Analytics",
+			"google_analytics_help"		: "Integración sencilla de google analytics integration para tus microwebs",
+			"facebook_pixel"			: "<i class=\"fab fa-fw fa-sm fa-facebook mr-1\"></i> Facebook Pixel",
+			"facebook_pixel_help"		: "Integración Sencilla de facebook pixel para tus microwebs",
+			"custom_backgrounds"		: "<i class=\"fa fa-fw fa-sm fa-fill mr-1\"></i> Fondo Perzonalizado",
+			"custom_backgrounds_help"	: "Puedes elegir un fondo personalizado para tu microweb.",
+			"verified"					: "<i class=\"fa fa-fw fa-sm fa-check-circle mr-1\"></i> Marca de Verificado",
+			"verified_help"				: "Obten tu marca de verificado en tu microweb",
+			"scheduling"				: "<i class=\"fa fa-fw fa-sm fa-clock mr-1\"></i> Agenda de links",
+			"scheduling_help"			: "Prepara todos tus links para que se publiquen cuando tu quieras",
+			"seo"						: "<i class=\"fa fa-fw fa-sm fa-search-plus mr-1\"></i> SEO",
+			"seo_help"					: "Personaliza la meta tags de tu microweb",
+			"utm"						: "<i class=\"fa fa-fw fa-sm fa-key mr-1\"></i> Parámetros UTM",
+			"utm_help"					: "Ajusta fácilmente los parámetros UTM para todas tus microwebs",
+			"socials"					: "<i class=\"fa fa-fw fa-sm fa-hashtag mr-1\"></i> Sociales",
+			"socials_help"				: "Agrega rápidamente al footer de tu microweb, links a tus redes sociales",
+			"fonts"						: "<i class=\"fa fa-fw fa-sm fa-pen-nib mr-1\"></i> Fonts",
+			"fonts_help"				: "Consigue multiples tipografías para usar en tu microweb",
+
+			"unlimited_projects_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Proyectos Ilimitadss",
+			"projects_limit"			: "<strong>%s</strong> Proyectos",
+
+			"unlimited_biolinks_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Microwebs ilimitadas",
+			"biolinks_limit"			: "<strong>%s</strong> Microwebs",
+
+			"unlimited_links_limit"		: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Links Cortos Ilimitados",
+			"links_limit"				: "<strong>%s</strong> Links Cortos",
+
+			"unlimited_domains_limit"	: "<i class=\"fa fa-fw fa-globe mr-1\"></i> Dominios Ilimitados",
+			"domains_limit"				: "<strong>%s</strong> Dominios"
+        }
+	},
+
+	"page": {
+		"breadcrumb"					: "Página",
+		"print"							: "Imprimir",
+
+		"estimated_reading_time"		: "%s leído",
+		"last_date"						: "Última actualización el: %s"
+	},
+
+	"pages": {
+		"title"							: "Páginas",
+		"header"						: "Centro de recursos",
+		"subheader"						: "Aquí puedes encontrar recursos útiles dependiendo de tus necesidades.",
+		"total_views"					: "(%s vistas)",
+
+		"index": {
+			"breadcrumb"				: "Páginas",
+
+			"popular_pages": {
+				"header"				: "Páginas populares"
+			},
+
+			"pages_categories": {
+				"header"				: "Categorías",
+				"total_pages"			: "%s páginas disponibles"
+			}
+		},
+
+		"pages_category": {
+			"breadcrumb"				: "Categoría de página"
+		}
+	},
+
+	"package": {
+		"breadcrumb"					: "Elige tu plan",
+		"title"							: "Plan",
+		"header_new"					: "Elige tu plan",
+		"subheader_new"					: "Elige el plan más conveniente para ti.",
+		"header_renew"					: "Renueva tu plan",
+		"subheader_renew"				: "Elige un plan para renovar tu your subscripción.",
+		"header_upgrade"				: "Mejora tu plan",
+		"subheader_upgrade"				: "Selecciona un plan para mejorar tu subscripción.",
+
+		"free": {
+			"price"						: "Gratis"
+		},
+
+		"trial": {
+			"price"						: "Prueba"
+		},
+
+		"custom_package": {
+			"monthly"					: "Mensual",
+			"annual"					: "Anual",
+			"lifetime"					: "Sin vencimiento",
+			"monthly_payments"			: "Pagos mensuales.",
+			"annual_payments"			: "Pagos anuales.",
+			"lifetime_payments"			: "Pagos sin vencimientos."
+		},
+
+		"button": {
+			"choose"					: "Elige un Plan",
+			"disabled"					: "Desactivado",
+			"already_free"				: "Tu Plan"
+		}
+	},
+
+	"pay": {
+		"breadcrumb"					: "%s plan",
+		"title"							: "Pagar",
+		"accept"						: "Al continuar con tu orden confirmas que has leído, comprendes y aceptas los %s y %s de este servicio.",
+
+		"free": {
+			"free_already"				: "Ya tienes el plan gratis activado!",
+			"other_package_not_expired"	: "Tu plan no ha expirado, conseguirás el plan gratuito una vez que el expire!"
+		},
+
+		"trial": {
+			"header"					: "Comenzar el Plan %s ",
+			"subheader"					: "Estás a un paso.",
+
+			"trial_done"				: "Tu opción de prueba ya fue usada, no puedes renovar.",
+			"other_package_not_expired"	: "Tu plan actualno ha expirado, si comienzas tu prueba se sobreescribirá!",
+			"trial_start"				: "Comenzar mis %s días de prueba"
+		},
+
+		"custom_package": {
+			"header"					: "Compra el plan %s ",
+			"subheader"					: "Estás a un paso, completa el siguiente formulario y luego has el checkout.",
+
+			"paypal"					: "PayPal",
+			"stripe"					: "Stripe",
+			"offline_payment"			: "Pago Offline",
+
+			"payment_frequency"				: "Elige tu plan de pago",
+			"monthly"					: "Pagos Mensuales",
+			"annual"					: "Pagos Anuales",
+			"annual_savings"			: "Ahorraste %s %s",
+			"lifetime"					: "Sin vencimiento",
+			"lifetime_help"				: "Un único pago",
+
+			"code" 						: "Código de descuento (opcional)",
+
+			"payment_processor"			: "Elige tu medio de pago preferido",
+			"no_processor"				: "No se están procesando pagos por el momento.",
+			"offline_payment_instructions": "Instrucciones de pago",
+			"offline_payment_proof"		: "Comprobante de pago",
+			"offline_payment_proof_help": "Sube tu comprobante de pago (jpg, jpeg, png o pdf).",
+
+			"payment_type"				: "Selecciona tu medio de pago preferido",
+			"one_time_type"				: "Único Pago",
+			"recurring_type"            : "Pago recurrente",
+
+			"pay"						: "Checkout"
+		},
+
+		"success_message": {
+			"code"						: "Aplicar cupón de descuento para %s."
+		},
+
+		"error_message": {
+			"code_invalid"				: "Este cupón no es válido.",
+			"code_used"					: "Ya se ha usado ese cupón de descuento.",
+			"canceled_payment"			: "Parece que has cancelado el pago por alguna razón.",
+			"failed_payment"			: "Algo no funcionó como esperábamos, por favor prueba nuevamente y si el error continua contacta a Soporte Técnico.",
+			"offline_payment_proof_missing": "Debes subir un comprobante de pago antes de confirmar la orden de pago."
+		}
+	},
+
+	"pay_thank_you" : {
+		"title"							: "Gracias",
+		"header"						: "Gracias!",
+		"button"						: "Ir a mi Dashboard",
+
+		"package_trial_start"			: "Tu período de prueba acaba de comenzar!",
+		"package_custom_start"			: "Tu pago fue procesado y tu membresía está activada!",
+		"package_custom_will_start" 	: "Tu pago ha sido enviado y tu membresía será próximamente activada!",
+		"package_custom_pending"		: "Tu orden de pago fue enviada y tu membresía será activada cuando el comprobante de pago sea confirmado!"
+	},
+
+	"account": {
+		"title"							: "Cuenta",
+		"menu"							: "Cuenta",
+
+		"package": {
+			"header"				    : "%s Plan",
+			"subheader"			    	: "termina el %s",
+			"upgrade_package"			: "Mejorar Plan",
+			"renew_package"				: "Renovar/Cambiar Plan",
+			"renew"						: "Renovar/Cambiar"
+		},
+
+		"settings": {
+			"header"					: "Configuración",
+			"subheader"					: "Configuración básica de tu cuenta.",
+
+			"email"						: "Email",
+			"name"						: "Nombre",
+			"timezone"					: "Zona horaria",
+			"timezone_help"				: "Tu forma preferida de mostrar las fechas."
+		},
+
+		"change_password": {
+			"header"					: "Cambiar Password",
+			"subheader"					: "Si no quieres cambiar tu password, no completes ninguno de los campos abajo.",
+
+			"current_password"			: "Password actual",
+			"new_password"				: "Nuevo Password",
+			"repeat_password"			: "Repetir Password"
+		},
+
+		"twofa": {
+			"header"					: "Dos-factores de autenticación",
+			"subheader"					: "Recibe un código de acceso cada vez que vas a ingresar a tu cuenta.",
+
+			"is_enabled"				: "Activar autenticación de Dos-factores",
+			"qr"						: "1. Escanea el QR Code",
+			"qr_help"					: "Abre la App de Autenticación (ex: Authy, Google Authenticatior) con tu móvil y escanea el siguiente Código QR Code con la cámara.",
+
+			"secret"					: "No puedes escanear el Código QR?",
+			"secret_help"				: "Prueba insertar el siguiente código secreto en tu app si no puedes escanear el código QR.",
+
+			"verify"					: "2. Ingresar la nueva token generada",
+			"verify_help"				: "Para confirmar que tu código fue ingresado correctamente, por favor ingresa el token de 8 dígitos de tu App."
+		},
+
+		"delete": {
+			"header"					: "Eliminar Cuenta",
+			"subheader"					: "Al eliminar tu cuenta, toda la información almacenada será eliminada.",
+			"confirm_message"			: "Estás seguro que quieres borrar tu cuenta?"
+		},
+
+		"error_message": {
+			"invalid_current_password"	: "El password es inválido!",
+			"short_password"			: "El password es muy corto, debe tener mínimo 6 caracteres!",
+			"passwords_not_matching"	: "El passwords ingresado no concuerda",
+			"twofa_check"				: "El token ingresado no es válido, por favor intenta configurar la autenticación de Dos-factores."
+		},
+
+		"success_message": {
+			"account_updated"			: "Tu cuenta fue actualizada!",
+			"subscription_canceled"     : "Tu subscripción fue cancelada!"
+		}
+	},
+
+	"domains": {
+		"title"							: "Dominios",
+		"menu"							: "Dominios",
+		"header"						: "Tus dominios",
+		"subheader"						: "Aquí puedes agregar tus dominios para usar con tus microwebs.",
+
+		"domains": {
+			"total"						: "Links totales",
+			"clicks"					: "Clicks únicos totales",
+
+			"no_data"					: "No hay dominios personalizados",
+			"no_data_help"				: "Agregar uno ahora"
+		},
+
+		"input": {
+			"host"						: "Dominio o subdominio",
+			"host_placeholder"			: "dominio.com",
+			"host_help"					: "Escribe el dominio o subdominio para tus links.",
+			"custom_index_url"			: "Index url personalizada",
+			"custom_index_url_help"		: "Redirigir a una url específica cuando visitan el index de tu dominio.",
+			"custom_index_url_placeholder": "https://dominio.com/"
+		},
+
+		"error_message": {
+			"domains_limit"				: "Ya tienes el máximo de dominios que permite tu plan."
+		}
+	},
+
+	"domain_create_modal": {
+		"header"						: "Agregar un dominio",
+		"subheader"						: "Asegúrate que tu dominio o subdominio tiene un A record apuntando a %s o CNAME record apuntando a %s.",
+
+		"success_message"				: "El nuevo dominio se ha creado!",
+
+		"error_message": {
+			"domains_limit"				: "Ya tienes el máximo de dominios que permite tu plan."
+		}
+	},
+
+	"domain_update_modal": {
+		"header"						: "Actualizar dominio",
+		"subheader"						: "Actualiza los detalles de tu dominio.",
+
+		"success_message" 				: "El dominio fue actualizado!"
+	},
+
+	"domain_delete_modal": {
+		"header"						: "Borrar dominio",
+		"subheader"						: "Toda la información relacionada a este dominio sera borrada completamente. Esta acción no se puede deshacer.",
+
+		"success_message"				: "El dominio fue borrado exitosamente!"
+	},
+
+	"account_package": {
+		"title"							: "Cuenta de Plan Package",
+		"menu"							: "Plan",
+		"header"						: "Cuenta Package",
+
+		"package":{
+			"renews"					: "El plan se renovará el  %s",
+			"expires"					: "El plan expira el %s"
+		},
+
+		"cancel": {
+			"header"					: "Cancelar Subscripción",
+			"subheader"					: "Al cancelar tu subscripción no se realizaran mas pagos. <br /> Podrás acceder a las funcionalidades por las cuales pagaste hasta el día que expire.",
+			"cancel"					: "Cancelar Subscripción",
+			"confirm_message"			: "Estas seguro que quieres cancelar el próximo pago de tu subscripción?"
+		},
+
+		"code": {
+			"header"					: "Canje",
+			"subheader"					: "Al canjear un cupón se cancelará tu plan actual y cambiará automáticamente al nuevo plan asociado al cupón.",
+
+			"input"						: "Cupón de canje",
+			"submit"					: "Activar"
+		},
+
+		"success_message": {
+			"code_redeemed"				: "El cupón ha sido canjeado exitosamente!",
+			"code"						: "Cupón de canje disponible: %s por %s días."
+		},
+
+		"error_message": {
+			"code_invalid"				: "Este cupón es inválido.",
+			"code_used"					: "Este cupón ya ya se utilizó."
+		}
+	},
+
+	"account_payments": {
+		"title"							: "Pagos de la cuenta",
+		"menu"							: "Pagos",
+		"header"						: "Pagos",
+		"subheader"						: "Todos los pagos realizados desde tu cuenta.",
+
+		"payments": {
+			"customer"					: "Cliente",
+			"type"						: "Tipo",
+			"date"						: "Fecha",
+			"name"						: "Nombre Completo",
+			"amount"					: "Cantidad",
+			"package_id"				: "Plan",
+			"invoice"					: "Recibo",
+			"status_pending"			: "Aprobación prendiente",
+			"status_approved"			: "Aprobado",
+
+			"no_data"					: "Por ahora no hay pagos."
+		}
+	},
+
+	"account_logs": {
+		"title"							: "Logs de la Cuenta",
+		"menu"							: "Logs",
+		"header"						: "Logs de la Cuenta",
+		"subheader"						: "Lista de tus actividades almacenadas mas importantes.",
+
+		"logs": {
+			"type"						: "Tipo",
+			"ip"						: "IP",
+			"date"						: "Fecha",
+
+			"no_data"					: "Tu cuenta no tiene registros en el log."
+		}
+	},
+
+	"invoice": {
+		"print"							: "Imprimir",
+		"invoice"						: "RECIBO",
+		"invoice_nr"					: "Recibo Nr",
+		"invoice_date"					: "Fecha",
+
+		"vendor": {
+			"header"					: "Vendedor",
+			"name"						: "Nombre",
+			"address"					: "Dirección",
+			"city"						: "Ciudad",
+			"county"					: "País",
+			"zip"						: "ZIP",
+			"country"					: "País",
+			"email"						: "Email",
+			"phone"						: "Teléfono"
+		},
+
+		"customer": {
+			"header"					: "Cliente",
+			"name"						: "Nombre",
+			"email"						: "Email"
+		},
+
+		"table": {
+			"item"						: "Item",
+			"amount"					: "Cantidad",
+			"item_value"				: "%s Plan, %s",
+			"total"						: "Total",
+			"paid_via"					: "Pagado vía %s"
+		}
+	},
+
+	"reset_password": {
+		"title"							: "Resetear Password",
+		"header"						: "Resetear Password",
+
+		"form": {
+			"new_password"				: "Nuevo Password",
+			"repeat_password"			: "Repetir Password"
+		},
+
+		"error_message": {
+			"short_password"			: "Tu password es muy corto, debe tener mínimo 6 caracteres!",
+			"passwords_not_matching"	: "El password ingresado no concuerda"
+		},
+
+		"success_message": {
+			"password_updated"			: "Tu password se actualizó!"
+		}
+	},
+
+	"login": {
+		"menu"							: "Ingresar",
+		"title"							: "Ingresar",
+		"header"						: "Ingresar",
+
+		"form": {
+			"email" 					: "Dirección de Email",
+			"email_placeholder"			: "email@dominio.com",
+			"password"					: "Password",
+			"password_placeholder"		: "Password",
+			"twofa_token"				: "Token para Dos-factores ",
+			"twofa_token_placeholder"	: "Token de la App de autenticación",
+			"remember_me"				: "Recuérdame",
+			"login"						: "Ingresar"
+		},
+
+		"display": {
+			"register"					: "No tienes una cuenta? %s",
+			"register_help"				: "Registro",
+
+			"lost_password"				: "Perdí Password",
+			"resend_activation"			: "Reenviar Activación",
+			"facebook"					: "%s Facebook Login"
+		},
+
+		"info_message": {
+			"twofa_token"				: "Utiliza tu app de autenticación para conseguir el token para la autenticación de Dos-factores.",
+			"logged_in"					: "Bienvenido nuevamente!"
+		},
+
+		"error_message": {
+			"twofa_token"				: "El token de Dos-factores de autenticación es inválido!",
+			"wrong_login_credentials"	: "Usuario o contraseña inválidos!",
+			"user_not_active"			: "Tu cuenta no está confirmada o está bloqueada!",
+			"email_is_null"				: "Tu cuenta de facebook account no tiene un email asociado a ella, no pudimos completar el proceso de login con  Facebook."
+		}
+	},
+
+	"lost_password": {
+		"title"							: "Perdí Password",
+		"header"						: "Perdí Password",
+		"return"						: "Regresar al Login",
+
+		"form": {
+			"email" 					: "Email",
+			"email_placeholder"			: "email@dominio.com"
+		},
+
+		"notice_message": {
+			"success"					: "Enviamos un email a esa dirección si hay una cuenta asociada!"
+		}
+	},
+
+	"resend_activation": {
+		"title"							: "Reenviar Activación",
+		"header"						: "Reenviar Email de Activación",
+		"return"						: "Regresar al Login",
+
+		"form": {
+			"email" 					: "Email",
+			"email_placeholder"			: "email@dominio.com"
+		},
+
+		"notice_message": {
+			"success"					: "Enviamos un email a esa cuenta si hay una cuenta asociada!"
+		}
+	},
+
+	"register": {
+		"title"							: "Registrar",
+		"menu"							: "Registrar",
+		"header"						: "Registrar",
+		"login"							: "Ya tienes una cuenta?",
+
+		"form": {
+			"name"						: "Nombre",
+			"name_placeholder"			: "Tu nombre completo",
+			"email"						: "Email",
+			"email_placeholder"			: "email@dominio.com",
+			"password"					: "Password",
+			"password_placeholder"		: "Password",
+			"repeat_password"			: "Repetir Password",
+			"accept"					: "Confirmo que he leído y comprendido los %s y %s del servicio.",
+			"register"					: "Registrar"
+		},
+
+		"error_message": {
+			"username_length"			: "El nombre de usuario debe tener entre 3 y 32 caracteres!",
+			"name_length"				: "El nombre debe tener entre 3 y 32 caracteres!",
+			"email_exists"				: "Disculpa pero el email ya está siendo usado!",
+			"invalid_email"				: "Has ingresado un email inválido!",
+			"short_password"			: "El password es muy corto, debe tener mínimo 6 caracteres!",
+			"passwords_not_matching"	: "El passwords ingresado no coincide",
+			"username_characters"		: "Solo puedes usar letras, números y '.', '_' para el tu nombre de usuario",
+			"email_verifier_api"		: "No tienes permitido usar un dirección de correo ficticia 🤭"
+		},
+
+
+		"success_message": {
+			"registration"				: "Tu cuenta se ha creado, revisa tu email para activar tu cuenta utilizando el link de activación! ( Asegúrate de revisar tu CARPETA DE SPAM )",
+			"login"						: "Bienvenido a Microweb, estamos contentos de que estés a bordo!"
+		}
+	},
+
+	"dashboard": {
+		"title"							: "Dashboard",
+		"menu"							: "Dashboard",
+		"breadcrumb"					: "Dashboard",
+
+		"header": {
+			"header"					: "Tu dashboard",
+			"package"					: "Tu Plan actual.",
+			"package_expiration_date"	: "Tu Plan expira",
+			"renew"						: "Renovar / Mejorar",
+			"clicks"					: "Clicks Totales.",
+			"links"						: "Links Totales."
+		},
+
+		"projects": {
+			"header"					: "Tus Proyectos",
+			"subheader"					: "Un proyecto puede contener múltiples microwebs o links cortos.",
+			"create"					: "Crear Projecto",
+
+			"name"						: "Nombre",
+			"domain"					: "Dominio",
+			"date"						: "Creado",
+
+			"no_data"					: "Sin proyectos activos.",
+			"no_data_help"				: "Crear uno ahora"
+		}
+	},
+
+	"project": {
+		"title"								: "Proyecto %s",
+		"breadcrumb"						: "Proyecto",
+
+		"header": {
+			"header"						: "Proyecto %s",
+			"subheader"						: "Todos los links creados en este proyecto."
+		},
+
+		"links": {
+			"header"						: "Links del Proyecto",
+			"create"						: "Crear",
+
+			"total"							: "Links Totales",
+			"clicks"						: "Clicks Totales",
+			"type"							: "Tipo",
+			"date"							: "Lanzado el",
+			"is_enabled"					: "Estado",
+			"is_enabled_tooltip"			: "Cambiar estado",
+
+			"no_data"						: "No hay links adjuntos a este proyecto.",
+			"no_data_help"					: "Crear uno ahora"
+		},
+
+		"error_message": {
+			"projects_limit"				: "Ya utilizaste el máximo de proyectos de tu plan."
+		}
+
+	},
+
+	"link": {
+		"branding"							: "🔥 Microweb.me",
+		"title"								: "%s Link",
+		"breadcrumb_link"					: "Link",
+		"breadcrumb_biolink"				: "Microweb.me",
+
+		"header": {
+			"header"						: "%s",
+			"subheader"						: "Tu link es %s",
+			"links"							: "Volver a la lista de Links",
+
+			"settings_tab"					: "Configuración",
+			"links_tab"						: "Links",
+			"biolinks_settings"				: "Volver a Microwebv"
+		},
+
+		"settings": {
+			"header"						: "Configuración",
+			"link"							: "Configuración",
+			"breadcrumb"					: "Configuración",
+
+			"location_url"					: "Url larga",
+			"location_url_placeholder"		: "https://dominio.com/demo/url-larga-demo",
+			"url"							: "Url Corta",
+			"url_placeholder"				: "tu-url-alias",
+			"url_help"						: "Deja vacío para generar aleatorio.",
+			"schedule"						: "Agendar",
+			"schedule_help"					: "Elige una fecha exacta para que el link empiece a funcionar.",
+			"start_date"					: "Fecha de inicio",
+			"end_date"						: "Fecha final",
+			"image"							: "Avatar",
+			"image_help"					: "",
+			"image_status"					: "Tu imagenfue elegida",
+			"image_remove"					: "Borrar imagen",
+			"title"							: "Título",
+			"description"					: "Descripción",
+            "text_color"                    : "Color de Texto",
+			"socials_color"					: "Color de Botones",
+			"background_type"				: "Tipo de Fondo",
+			"background_type_preset"		: "Preset",
+			"background_type_color"			: "Color Personalizado",
+			"background_type_gradient"		: "Gradient Personalizado",
+			"background_type_gradient_color_one": "Color 1",
+			"background_type_gradient_color_two": "Color 2",
+			"background_type_image"			: "Image personalizada",
+			"display_verified"				: "Mostrar Marxa de Verificado",
+			"branding_header"				: "Branding",
+			"display_branding"				: "Mostrar Branding",
+			"branding": {
+				"name"						: "Nombre del Branding",
+				"name_help"					: "Deja vacío para que quede el Branding por defecto.",
+				"url"						: "URL del Branding"
+			},
+			"analytics_header"				: "Analytics",
+			"google_analytics"				: "Google Analytics ID",
+			"google_analytics_help"			: "Activar tracking con Google Analytics agregando el ID de analytics (ex: UA-22222222-33).",
+			"facebook_pixel"				: "Facebook Pixel",
+			"facebook_pixel_help"			: "Activar Facebook Pixel agregando solo el Facebook Pixel ID.",
+			"seo_header"					: "Seo",
+			"seo_title"						: "Título de la página",
+			"seo_title_help"				: "Cambiar el título de la página a uno personalizado.",
+			"seo_meta_description"			: "Descripción Meta",
+			"seo_meta_description_help"		: "Escribe una descripción meta para mejorar el ranking de tu microweb en los buscadores.",
+			"utm_header"					: "Parámetros UTM",
+			"utm_medium"					: "Medium",
+			"utm_campaign"					: "La campaña sera configurada automáticamente para cada link, basado en el nombre del link.",
+			"utm_source"					: "Origen",
+			"socials_header"				: "Sociales",
+			"socials": {
+				"email": {
+					"name"					: "Email",
+					"placeholder"			: "email@dominio.com",
+					"icon"					: "fa fa-envelope"
+				},
+
+				"tel": {
+					"name"					: "Teléfono",
+					"placeholder"			: "+00000000000",
+					"icon"					: "fa fa-phone-square"
+				},
+
+				"whatsapp": {
+					"name"					: "Whatsapp",
+					"placeholder"			: "+00000000000",
+					"icon"					: "fab fa-whatsapp"
+				},
+
+				"facebook": {
+					"name"					: "Facebook",
+					"placeholder"			: "https://facebook.com/your-facebook-page",
+					"icon"					: "fab fa-facebook"
+				},
+
+				"facebook-messenger": {
+					"name"					: "Facebook Messenger",
+					"placeholder"			: "https://m.me/facebookpage",
+					"icon"					: "fab fa-facebook-messenger"
+				},
+
+				"instagram": {
+					"name"					: "Instagram",
+					"placeholder"			: "Instagram username",
+					"icon"					: "fab fa-instagram"
+				},
+
+				"twitter": {
+					"name"					: "Twitter",
+					"placeholder"			: "Twitter username",
+					"icon"					: "fab fa-twitter"
+				},
+
+				"tiktok": {
+					"name"					: "TikTok",
+					"placeholder"			: "TikTok username",
+					"icon"					: "fab fa-tiktok"
+				},
+
+				"youtube": {
+					"name"					: "Canal de Yputube",
+					"placeholder"			: "https://youtube.com/channel/id",
+					"icon"					: "fab fa-youtube"
+				},
+
+				"soundcloud": {
+					"name"					: "SoundCloud",
+					"placeholder"			: "https://soundcloud.com/username",
+					"icon"					: "fab fa-soundcloud"
+				},
+
+				"linkedin": {
+					"name"					: "LinkedIn",
+					"placeholder"			: "https://linkedin.com/in/profile",
+					"icon"					: "fab fa-linkedin"
+				},
+
+				"spotify": {
+					"name"					: "Spotify",
+					"placeholder"			: "https://open.spotify.com/artist/artistname",
+					"icon"					: "fab fa-spotify"
+				},
+
+				"pinterest": {
+					"name"					: "Pinterest",
+					"placeholder"			: "https://pinterest.com/profile",
+					"icon"					: "fab fa-pinterest"
+				}
+			},
+			"fonts_header"					: "Fuentes",
+			"font"							: "Fuente"
+		},
+
+		"links": {
+			"link_sort"						: "Arrastrar para reordenar.",
+			"no_data"						: "No hay links para mostrar. Comienza creando uno.",
+			"settings"						: "Configuración",
+			"switch_status"					: "Cambiar Estado",
+			"duplicate"						: "Duplicar"
+		},
+
+		"statistics": {
+			"breadcrumb"					: "Estadísticas",
+
+			"header"						: "Estadísticas",
+			"link"							: "Estadísticas",
+			"no_data"						: "No hay datos para mostrar.",
+			"missing_statistics_package"	: "Tu plan acutal no te permite ver estas estadísticas.",
+
+			"clicks_chart"					: "Cuadro de Clicks",
+			"impressions"					: "Impresiones",
+			"uniques"						: "Unicas",
+
+			"lastactivity"					: "Última actividad",
+			"lastactivity_help"				: "Aquí puedes ver las últimas visitas a tu link.",
+
+			"country_code"					: "Países",
+			"country_code_help"				: "Países detectados que han accedido al link.",
+			"country_code_unknown"			: "Desconocido",
+
+			"os_name"						: "Sistema Operativo",
+			"os_name_help"					: "Descubre cual OS es el más popular entre tus visitantes.",
+			"os_name_unknown"				: "Desconocido",
+
+			"browser_name"					: "Navegadores",
+			"browser_name_help"				: "Descubre que navegadores usan tus visitantes.",
+			"browser_name_unknown"			: "Desconocido",
+
+			"browser_language"				: "Lenguaje del Navegador",
+			"browser_language_help"			: "Descubre el lenguaje del navegador de tus visitantes.",
+			"browser_language_unknown"		: "Desconocido",
+
+			"device_type"					: "Dispositivos",
+			"device_type_help"				: "Descubre el tipo de dispositivo que utilizan tus visitantes.",
+			"device_type_unknown"			: "Desconocido",
+			"device_type_desktop"			: "Desktop",
+			"device_type_tablet"			: "Tablet",
+			"device_type_mobile"			: "Móvil",
+
+			"referrer"						: "Referidos",
+			"referrer_help"					: "De dónde viene tu trádico?",
+			"referrer_direct"				: "Directo"
+		},
+
+		"qr": {
+			"link"							: "Código QR"
+		},
+
+		"success_message": {
+			"settings_updated"				: "Actualización exitosa!"
+		},
+
+		"error_message": {
+			"blacklisted_url"				: "Esta url no está disponible para usar!",
+			"blacklisted_domain"			: "Este dominio ha sido bloqueado, no puedes usarlo!",
+			"blacklisted_keyword"			: "Esta url está bloqueada!",
+			"blacklisted_location_url"		: "Esta url ha sido bloqueada, no puedes usarla!",
+			"invalid_location_url"			: "Has ingresado un formato inválido para un link! Ta vez te falta escribir el https:// antes de la url?"
+		},
+
+		"biolink": {
+			"name"                          : "Microweb.me bio link",
+			"icon"							: "fa fa-fw fa-hashtag",
+			"color"							: "#0089ff",
+
+			"image_alt"						: "Avatar",
+			"title_default"					: "Mi propia Microweb",
+			"description_default"			: "",
+
+			"link": {
+				"name"                          : "Link",
+				"icon"							: "fa fa-fw fa-link",
+				"color"							: "#00526b",
+
+				"name_default"					: "Tu link aquí"
+			},
+
+			"text": {
+				"name"                          : "Texto",
+				"icon"							: "fa fa-fw fa-heading",
+				"color"							: "#000"
+			},
+
+			"twitch": {
+				"name"                          : "Twitch",
+				"icon"							: "fab fa-twitch",
+				"color"							: "#6441a5"
+			},
+
+			"youtube": {
+				"name"                          : "YouTube",
+				"icon"							: "fab fa-youtube",
+				"color"							: "#ff0000"
+			},
+
+			"soundcloud": {
+				"name"                          : "SoundCloud",
+				"icon"							: "fab fa-soundcloud",
+				"color"							: "#ff8800"
+			},
+
+			"vimeo": {
+				"name"                          : "Vimeo",
+				"icon"							: "fab fa-vimeo",
+				"color"							: "#1ab7ea"
+			},
+
+			"spotify": {
+				"name"                          : "Spotify",
+				"icon"							: "fab fa-spotify",
+				"color"							: "#1db954"
+			},
+
+			"tiktok": {
+				"name"                          : "TikTok",
+				"icon"							: "fab fa-tiktok",
+				"color"							: "#FD3E3E"
+			},
+
+			"mail": {
+				"name"                          : "Registro de Mail",
+				"icon"							: "fa fa-envelope",
+				"color"							: "#c91685",
+
+				"name_default"					: "Registrarme",
+				"email_placeholder_default"		: "email@dominio.com",
+				"button_text_default"			: "Registrarme",
+				"success_text_default"			: "Gracias por registrarte!"
+			}
+		},
+
+		"link": {
+			"name"                          : "Link",
+			"icon"							: "fa-link",
+			"color"							: "#00526b"
+		}
+	},
+
+	"index": {
+		"title"							: "Multiple Bio Links para Instagram",
+		"header"						: "Obtiene lo máximo de tu Microweb",
+		"subheader"						: "Crea links cortos, microwebs únicas y obtén estadísticas de tus visitantes.",
+		"sign_up"						: "⚡️ Comenzar ahora!",
+		"breadcrumb"					: "Inicio",
+		"is_custom_domain"				: "Dominio personalizado",
+
+		"presentation": {
+			"header"					: "Crea una hermosa <u>microweb</u>",
+			"subheader"					: "Crea y administra múltiples Microwebs para tu equipo o negocio."
+		},
+
+		"presentation2": {
+			"header"					: "Administra múltiple microwebs y proyectos",
+			"subheader"					: "Una microweb para ti, una para tu amigo, una microweb para tu negocio o compañía. Una cuenta es todo lo que necesitas."
+		},
+
+		"presentation3": {
+			"header"					: "Microwebs & Links cortos",
+			"subheader"					: "Si! Puedes usar nuestro servicio solamente para urls cortas."
+		},
+
+		"presentation4": {
+			"header"					: "Trae toda tu creatividad a la vida",
+			"subheader"					: "Agrega tu toque personalizado a tu microweb con nuestro sencillo y potente editor."
+		},
+
+		"presentation5": {
+			"header"					: "Estadísticas día a día",
+			"subheader"					: "Conoce mejor a tu audiencia con estadísticas detalladas y si no es suficiente, integra con Google Analytics."
+		},
+
+		"setup": {
+			"header"					: "Fácil de configurar & Integrar en cualquier microweb.",
+			"description"				: "Estos son algunos ejemplos. <br />Cualquier website puede correr nuestras notificaciones.",
+
+			"shopify"					: "Shopify",
+			"wordpress"					: "Wordpress",
+			"zapier"					: "Zapier",
+			"squarespace"				: "Squarespace"
+		},
+
+		"tools": {
+			"header"					: "Tus herramientas de Marketing Gratuitas 🔥",
+			"subheader"					: "Eligde de una amplia variedad de notificaciones.",
+
+			"preview"					: "Preview de Notificaciones",
+			"preview_description"		: "Elige cualquier tipo de notificaciones y previsualiza en vivo."
+		},
+
+		"pricing": {
+			"header"					: "Elige tu plan",
+			"subheader"					: "Elige un plan de acuerdo a tus necesidades."
+		}
+	},
+
+	"admin_pages_categories": {
+		"header"						: "Categoría de páginas",
+		"header_no_data"				: "Crea tu primera categoría de páginas",
+		"subheader_no_data"				: "Ordena tus páginas adicionales por categoría.",
+		"create"						: "Crear Categoría",
+
+		"pages_categories": {
+			"pages_category"			: "Categoría",
+			"total_pages"				: "%s páginas"
+		},
+
+		"main": {
+			"header"					: "Principal",
+			"subheader"					: "Configuración Principal de la categoría de página."
+		},
+
+		"secondary": {
+			"header"					: "Secundario",
+			"subheader"					: "Configuraciones extra para la categoría de página."
+		},
+
+		"input": {
+			"url"						: "Slug",
+			"url_placeholder"			: "url-categoria-de-pagina",
+			"title"						: "Título",
+			"description"				: "Description corta",
+			"icon"						: "Icono",
+			"icon_placeholder"			: "fa fa-plane",
+			"icon_help"					: "<a href=\"https://fontawesome.com/icons\">FontAwesome</a> icon class, deja vacío si no quieres ícono.",
+			"order"						: "Orden",
+			"order_help"				: "Organiza fácilmente las categorías con números. Se mostrarán de forma ascendente."
+		}
+	},
+
+	"admin_pages_category_create": {
+		"title"							: "Crear categoría de páginas",
+		"header"						: "Crear una nueva categoría de páginas"
+	},
+
+	"admin_pages_category_update": {
+		"title"							: "Actualizar la categoría de páginas",
+		"header"						: "Actualizar la categoría de páginas"
+	},
+
+	"admin_pages_category_delete_modal": {
+		"header"						: "Borrar Categoría de páginas",
+		"subheader"						: "Todas las páginas dentro de esta categoría serán eliminadas. Esta acción no se puede deshacer.",
+
+		"success_message"				: "La categoría de páginas se ha borrado exitosamente!"
+	},
+
+	"admin_pages": {
+		"title"							: "Admin de Páginas",
+		"menu"							: "Páginas",
+		"header"						: "Páginas",
+		"header_no_data"				: "Crea tu primera página",
+		"subheader_no_data"				: "Crear páginas adicionales que podrás adjuntar a la plataforma.",
+		"create"						: "Crear Página",
+
+		"pages": {
+			"page"						: "Página",
+			"position"					: "Posición",
+			"position_top"				: "Menú superior",
+			"position_bottom"			: "Menú inferior",
+			"position_hidden"			: "Oculto",
+			"total_views"				: "%s vistas"
+		},
+
+		"main": {
+			"header"					: "Principal",
+			"subheader"					: "Configuración principal de la página."
+		},
+
+		"secondary": {
+			"header"					: "Secundario",
+			"subheader"					: "Configuraciones extra para la página."
+		},
+
+		"input": {
+			"title"						: "Título",
+			"description"				: "Descripción corta",
+			"url_internal"				: "Slug",
+			"url_internal_placeholder"	: "ex: url-de-la-pagina",
+			"url_external"				: "Url Externa",
+			"url_external_placeholder"	: "ex: https://dominio.com/",
+			"content"					: "Contenido",
+			"position"					: "Posición",
+			"position_top"				: "Menú superior",
+			"position_bottom"			: "Menú inferior",
+			"position_hidden"			: "Oculto",
+			"type"						: "Tipo",
+			"type_internal"				: "Interno",
+			"type_external"				: "Externo",
+			"pages_category_id"			: "Categoría",
+			"pages_category_id_null"	: "Sin categoría",
+			"order"						: "Orden",
+			"order_help"				: "Organiza fácilmente las páginas con números. Se mostrarán en el website de forma ascendente.",
+			"date"						: "Creado por primera vez el",
+			"last_date"					: "Última edición el"
+		}
+	},
+
+	"admin_page_delete_modal": {
+		"header"						: "Borrar Página",
+		"subheader"						: "Esta acción no se puede deshacer.",
+
+		"success_message"				: "La página se ha borrado exitosamente!"
+	},
+
+	"admin_page_create": {
+		"title"							: "Crear Página",
+		"header"						: "Crear Página"
+	},
+
+	"admin_page_update": {
+		"title"							: "Actualizar Página",
+		"header"						: "Actualizar Página"
+	},
+
+	"admin_packages": {
+		"title"							: "Admin de Planes",
+		"menu"							: "Planes",
+		"header"						: "Admin de Planes",
+		"create"						: "Crear plan",
+
+		"table": {
+			"name"						: "Nombre del Plan",
+			"custom_help"				: "Se puede definir un Plan directo desde el la página de actualización del usuario.",
+			"monthly_price"				: "Precio Mensual",
+			"annual_price"				: "Precio anual",
+			"users"						: "Usuarios",
+			"status"					: "Estado"
+		},
+
+		"main": {
+			"header"					: "Principal",
+			"subheader"					: "Define las características principales del plan.",
+
+			"trial": {
+				"days"					: "Días",
+				"days_help"				: "El número de días para el plan de prueba."
+			},
+
+			"name"						: "Nombre",
+			"monthly_price"				: "Precio Mensual",
+			"annual_price"				: "Precio Anual",
+			"lifetime_price"			: "Precio Sin Vencimiento",
+			"price_help"				: "0 para desactivar el %s",
+			"status"					: "Estado"
+		},
+
+		"package": {
+			"header"					: "Configuración del Plan",
+			"subheader"					: "Elige cuales funcionalidades activar para este plan.",
+			"per_month"					: "por mes, por website",
+
+			"projects_limit"			: "Máximo de Proyectos",
+			"projects_limit_help"		: "-1 para ilimitados.",
+			"biolinks_limit"			: "Máximo de microwebs",
+			"biolinks_limit_help"		: "La cantidad total de microwebs que el usuario puede crear. -1 para ilimitado.",
+			"links_limit"				: "Máximo de Links",
+			"links_limit_help"			: "La cantidad de links cortos que el usuario puede crear. -1 para ilimitado.",
+			"domains_limit"				: "Máximo de Dominios",
+			"domains_limit_help"		: "Cantidad total de dominios que el usuario puede agregar. -1 para ilimitados.",
+			"additional_global_domains"		: "Dominios Globales Adicionales",
+			"additional_global_domains_help": "Activando esto, todas las personas con este plan podran usar todos los dominios globales adicionales.",
+			"custom_url"					: "Back-half personalizado",
+			"custom_url_help"				: "Activando esto permites al usuario tener urls personalizadas en vez de aleatorias.",
+			"deep_links"					: "Deep links",
+			"deep_links_help"				: "Activando esto el usuario podra usar deep links para aputar a una app específica y no solamente urls http o https.",
+			"no_ads"					: "Sin Ads",
+			"no_ads_help"				: "Activando esto, las personas con este paquete no verán ninguna publicidad.",
+			"removable_branding"		: "Branding del footer removible",
+			"removable_branding_help"	: "Esto da la opción al usuario de remover el branding de microweb del footer.",
+			"custom_branding"			: "Footer personalizado",
+			"custom_branding_help"		: "Esto permite a los usuarios agregar su footer personalizado.",
+			"custom_colored_links"		: "Links coloreados",
+			"custom_colored_links_help"	: "Permite al usuario personalizar el color de sus enlaces",
+			"statistics"				: "Estadísticas avanzadas",
+			"statistics_help"			: "Permite al usuario ver estadísticas más profundas y seleccionar un período de fechas",
+			"google_analytics"			: "Google Analytics",
+			"google_analytics_help"		: "Permite al usuario agregar Google Analytics a sus páginas.",
+			"facebook_pixel"			: "Facebook Pixel",
+			"facebook_pixel_help"		: "Permite al usuario agregar Facebook Pixel en sus páginas.",
+			"custom_backgrounds"		: "Fondo Personalizado",
+			"custom_backgrounds_help"	: "Permite al usuario personalizar su fondo de página ( colores, gradientes e imágenes ).",
+			"verified"					: "Marca de Verificado",
+			"verified_help"				: "Activa la Marca de Perfil Verificado en todas las páginas.",
+			"scheduling"				: "Agenda de links",
+			"scheduling_help"			: "Permite al usuario agendar un botón.",
+			"seo"						: "SEO",
+			"seo_help"					: "Permite al usuario cambiar el Título y Descripción Meta de su página.",
+			"utm"						: "Parámetros UTM",
+			"utm_help"					: "Permite al usuario configurar parámetros UTM globales para todos los links en su página.",
+			"socials"					: "Socialess",
+			"socials_help"				: "Permite al usuario agregar sus cuentas de redes sociales y mostrarlas debajo de los links de la página.",
+			"fonts"						: "Fuentes",
+			"fonts_help"				: "Permite al usuario elegir tipos de fuentes para sus links desde la lista de fuentes extra."
+		}
+	},
+
+	"admin_package_delete_modal": {
+		"header"						: "Borrar Plan",
+		"subheader"						: "Al borrar este plan, todas las suscripciones asociadas serán canceladas.. Los usuarios podrán acceder a sus funcionalidades pagas hasta el día que expire el plan. Esta acción no se puede deshacer.",
+
+		"success_message"				: "El Plan se ha borrado exitosamente!"
+	},
+
+	"admin_package_create": {
+		"title"							: "Crear Plan",
+		"menu"							: "Crear Plan",
+		"header"						: "Crear Nuevo Plan"
+	},
+
+	"admin_package_update": {
+		"title"							: "Actualizar plan",
+		"header"						: "Actualizar el plan %s",
+
+		"update_users_package_settings": {
+			"button"					: "Actualizar y actualizar el plan de suscriptores también",
+			"button_help"				: "Al actualizar este plan de suscriptores sobre-escribe las configuraciones actuales por las nuevas configuraciones del plan."
+		},
+
+		"error_message": {
+			"disabled_packages"			: "No tienes permitido desactivar todos los planes disponibles."
+		}
+	},
+
+	"admin_codes": {
+		"title"							: "Admin de Cupones",
+		"menu"							: "Cupones",
+		"header"						: "Admin de Cupones",
+		"header_no_data"				: "Crear tu primer cupón",
+		"subheader_no_data"				: "Crear cupones de descuento o de canje que puedes compartir con tus usuarios.",
+		"create"						: "Crear cupón",
+
+		"table": {
+			"code"						: "Cupón",
+			"type"						: "Tipo",
+			"package_id"				: "Plan",
+			"package_id_null"			: "Todos los planes",
+			"discount"					: "Descuento",
+			"quantity"					: "Cantidad",
+			"redeemed_codes"			: "Canjeados"
+		},
+
+		"main": {
+			"header"					: "Configuración del Cupón",
+			"subheader"					: "Genera un cupón dependiendo del uso que quieras darle.",
+
+			"type"						: "Tipo",
+			"type_discount"				: "Descuento",
+			"type_redeemable"			: "Canjeable",
+			"package_id"				: "Plan",
+			"package_id_help"			: "Para qué plan quieres crear el cupón.",
+			"package_id_null"			: "Todos los planes",
+			"days"						: "Días",
+			"days_help"					: "Cuántos días estará disponible el plan.",
+			"code"						: "Cupón",
+			"discount"					: "Porcentaje de Descuento",
+			"discount_help"				: "Elige un descuento de entre 1% y 99% para el cupón",
+			"quantity"					: "Cantidad",
+			"quantity_help"				: "Cuántas veces se puede usar el cupón."
+		}
+
+	},
+
+	"admin_code_delete_modal": {
+		"header"						: "Borrar Cupón",
+		"subheader"						: "Al borrar el cupón los pagos de los usuarios no se borrarán. Esta acción no se puede deshacer.",
+
+		"success_message"				: "Se borró el cupón exitosamente!"
+	},
+
+	"admin_code_create": {
+		"title"							: "Crear Cupón",
+		"menu"							: "Crear Cupón",
+		"header"						: "Crear un nuevo cupón"
+	},
+
+	"admin_code_update": {
+		"title"							: "Editar Cupón",
+		"header"						: "Editar Cupón",
+		"subheader"						: "Cambiar la configuración no tendrá efecto en los cupones ya canjeados."
+	},
+
+	"admin_payments": {
+		"title"							: "Lista de pagos",
+		"header"						: "Lista de Pagos",
+		"menu"							: "Pagos",
+
+		"table": {
+			"type"						: "Tipo",
+			"user_email"				: "User",
+			"email"						: "Email",
+			"user"						: "Usuario",
+			"date"						: "Fecha",
+			"name"						: "Nombre Completo",
+			"amount"					: "Cantidad",
+			"currency"					: "",
+			"action_view_proof"			: "Ver comprobante",
+			"action_approve_proof"		: "Aprobar pago"
+		}
+	},
+
+	"admin_payment_delete_modal": {
+		"header"						: "Borrar pago",
+		"subheader"						: "Esta acción no se puede deshacer.",
+
+		"success_message"				: "El pago se borró exitosamente!"
+	},
+
+	"admin_payment_approve_modal": {
+		"header"						: "Pago aprobado",
+		"subheader"						: "Si apruebas el pago, comenzará el plan para el usuario.",
+
+		"success_message"				: "El pago fue aprovado exitosamente!"
+	},
+
+	"admin_index": {
+		"title"							: "Admin Dashboard",
+		"menu"							: "Dashboard",
+		"header"						: "Dashboard",
+
+		"display": {
+			"clicks_month" 				: "Clicks en el link este mes",
+			"clicks"					: "Cantidad Total de Clicks en el link",
+			"payments_month"			: "Payments this month",
+			"payments"					: "Pagos Totales",
+			"earnings_month"			: "Ganancias este mes",
+			"earnings"					: "Ganancias Totales",
+			"active_users_month"		: "Usuarios Activos este mes",
+			"active_users"				: "Total de Usuarios",
+			"latest_users"				: "Últimas Cuentas",
+			"latest_payments"			: "Últimos Pagos"
+		},
+
+		"table": {
+			"username"					: "Nombre de usuario",
+			"name"						: "Nombre",
+			"email"						: "Email",
+			"type"						: "Tipe",
+			"date"						: "Fecha",
+			"actions"					: "Acciones"
+		},
+
+		"users": {
+			"header"					: "Últimos usuairos",
+
+			"user"						: "Usuario"
+		},
+
+		"payments": {
+			"header"					: "Últimos pagos",
+
+			"user"						: "Usuario",
+			"payment"					: "Pagos"
+		}
+	},
+
+	"admin_users": {
+		"title"							: "Admin de Usuarios",
+		"header"						: "Admin de Usuarios",
+		"menu"							: "Usuarios",
+
+		"table": {
+			"username"					: "Nombre de usuario",
+			"name"						: "Nombre",
+			"email"						: "Email",
+			"active"					: "Estado",
+			"package_id"				: "Plan",
+			"registration_date"			: "Fecha Reg.",
+			"actions"					: "Acciones"
+		},
+
+		"tooltip": {
+			"admin"						: "Admin",
+			"owner"						: "Propietario",
+			"package"					: "Plan Actual"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Al borrar este usuario, todo lo relacionado al usuario será borrado!"
+		},
+
+		"error_message": {
+			"self_delete"				: "No te puedes borrar a tí mismo!",
+			"self_status"				: "No puedes cambiar tu propio estado!"
+		},
+
+		"display": {
+			"admin"						: "Admin",
+			"search_placeholder"		: "Buscar por nombre de usuario, nombre o email."
+		}
+	},
+
+	"admin_user_delete_modal": {
+		"header"						: "Borrar Usuario",
+		"subheader"						: "Al borrar este usuario, todo lo relacionado al usuario será borrado. Esta acción no se puede deshacer.",
+
+		"success_message"				: "El usuario se borró exitosamente!"
+	},
+
+	"admin_user_login_modal": {
+		"header"						: "Ingresar como éste usuario",
+		"subheader"						: "Al ingresar como otro usuario, saldrás de tu cuenta actual para ingresar como éste otro usuario.",
+
+		"success_message"				: "Ingreso exitoso como %s! Para salir de la cuenta utiliza la opción de Salir."
+	},
+
+	"admin_user_create": {
+		"title"							: "Crear Usuario",
+		"header"						: "Crear Usuario",
+		"menu"							: "Crear Usuario",
+
+		"form": {
+			"name"						: "Nombre",
+			"name_placeholder"			: "Nombre Completo",
+			"email"						: "Email",
+			"email_placeholder"			: "email@dominio.com",
+			"password"					: "Password",
+			"password_placeholder"		: "Password",
+			"repeat_password"			: "Repetir Password"
+		},
+
+		"error_message": {
+			"username_length"			: "El nombre de usuario debe tener entre 3 y 32 caracteres!",
+			"name_length"				: "El nombre debe tener entre 3 y 32 caracteres!",
+			"email_exists"				: "El email ingresado ya existe!",
+			"invalid_email"				: "Ingresaste un email inválido!",
+			"short_password"			: "El Password es muy corto, debe tener mínimo 6 caracteres!",
+			"passwords_not_matching"	: "Los passwords ingresados no coincide",
+			"username_characters"		: "Solo puedes usar letras, dígitos y '.', '_' para el nombre de usuario"
+		},
+
+		"success_message": {
+			"created"					: "La cuenta se ha creado!"
+		}
+	},
+
+	"admin_user_update": {
+		"title"							: "Editar Usuario",
+		"header"						: "Editar Usuario",
+
+		"main": {
+			"header"					: "Principal",
+			"subheader"					: "Detalles del perfil, estado y permisos de la cuenta.",
+			"username"					: "Nombre de usuario",
+			"name"						: "Nombre",
+			"email"						: "Email",
+			"is_enabled"				: "Estado de la cuenta",
+			"is_enabled_active"			: "Activo",
+			"is_enabled_unconfirmed"	: "Sin confirmar",
+			"is_enabled_disabled"		: "Desactivado",
+			"type"						: "Privilegios del usuario",
+			"type_help"					: "Los usuarios Admin tendrán tus mismos privilegios, cuidado!",
+			"type_admin"				: "Admin",
+			"type_user"					: "Usuario "
+		},
+
+		"package": {
+			"header"					: "Plan",
+			"header_help"				: "Cambiar y actualizar el plan del usuario.",
+			"package_id"			    : "Plan Actual",
+			"package_expiration_date"   : "Fecha Expiración del Plan",
+			"package_expiration_date_invalid"   	: "Ten en cuenta, la fecha de expiración del plan es pasada. Puedes guardarlo así.",
+			"package_trial_done"		: "Plan de prueba terminado"
+		},
+
+		"change_password": {
+			"header"					: "Cambiar Password",
+			"subheader"					: "Dejar vacío si no quieres cambiar el password del usuario!",
+			"new_password"				: "Nuevo Password",
+			"repeat_password"			: "Repetir Password"
+		},
+
+		"error_message": {
+			"name_length"				: "El nombre debe tener entre 3 y 32 caracteres!",
+			"invalid_account"			: "No se encontró la cuenta!",
+			"email_exists"				: "Este email ya está siendo usado!",
+			"invalid_email"				: "Ingresaste un email inválido!",
+			"short_password"			: "Tu password es muy corto, debe tener mínimo 6 caracteres!",
+			"passwords_not_matching"	: "Los passwords ingresados no coinciden!"
+		}
+	},
+
+	"admin_user_view": {
+		"title"							: "Ver Usuario",
+		"header"						: "Ver Usuario",
+
+		"main": {
+			"points"					: "Puntos Actuales",
+			"ip"						: "IP",
+			"country"					: "País",
+			"name"						: "Nombre",
+			"email"						: "Email",
+			"status"					: "Estado de la Cuenta",
+			"status_active"				: "Activo",
+			"status_disabled"			: "Desactivado",
+			"type"						: "Privilegios",
+			"type_help"					: "Los usuarios Admin tendrán tus mismo privilegios, cuidado!",
+			"type_admin"				: "Admin",
+			"type_user"					: "Usuario",
+			"new_password"				: "Nuevo Password",
+			"repeat_password"			: "Repetir Password",
+			"last_activity"				: "Último Activo",
+			"last_user_agent"			: "Último Agente de Usuario",
+			"package_trial_done"		: "Plan de prueba terminado",
+			"package"					: "Plan Actual",
+			"package_expiration_date"	: "Fecha de Expiración del Plan",
+			"total_logins"				: "Ingresos Totales",
+			"language"					: "Idioma"
+		},
+
+		"projects"						: "Proyectos",
+		"links"							: "Links",
+		"domains"						: "Dominios",
+		"payments"	 					: "Pagos",
+
+		"logs": {
+			"header"					: "Última Actividad",
+			"subheader"					: "Última actividad registrada",
+			"type"						: "Tipo",
+			"ip"						: "IP",
+			"date"						: "Fecha"
+		}
+	},
+
+	"admin_links": {
+		"title"							: "Admin de Links",
+		"header"						: "Admin de Links",
+		"subheader"						: "Links que han sido creado por el usuario en tu plataforma.",
+		"menu"							: "Links",
+
+		"table": {
+			"type"						: "Tipo",
+			"email"						: "Usuario",
+			"url"						: "URL",
+			"clicks"					: "Clicks",
+			"is_enabled"				: "Estado",
+			"date"						: "Fecha",
+			"actions"					: "Acciones"
+		},
+
+		"tooltip": {
+			"admin"						: "Admin",
+			"owner"						: "Propietario",
+			"package"					: "Plan Actual"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Al borrar este link, todo lo relacionado será borrado!"
+		},
+
+		"display": {
+			"location_url"				: "Abrir Link",
+			"search_placeholder"		: "Buscar por nombre o email."
+		}
+	},
+
+	"admin_domains": {
+		"title"							: "Admin de Dominios",
+		"header"						: "Admin de Dominios",
+		"menu"							: "Dominios",
+
+
+		"table": {
+			"type"						: "Tipo",
+			"email"						: "Usuario",
+			"host"						: "URL",
+			"links"						: "Links",
+			"date"						: "Fecha",
+			"actions"					: "Acciones"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Al borrar este dominio, todo lo asociado (incluyendo los links) será borrado!"
+		},
+
+		"display": {
+			"type_global"				: "Dominios globales adicionales",
+			"type_user"					: "Dominio ingresado"
+		}
+	},
+
+	"admin_domain_create": {
+		"title"							: "Agregar un nuevo dominio global",
+		"header"						: "Agregar un nuevo dominio global",
+		"subheader"						: "Asegúrate de leer atentamente la <a href=\"https://altumco.de/phpbiolinks-docs\">Documentación</a> sobre cómo configurar Multiples Dominios.",
+		"menu"							: "Agregar un nuevo dominio",
+
+		"form": {
+			"helper"					: "Asegúrate que tu dominio o subdominio tiene un A record apuntando a %s o CNAME record apuntando a %s.",
+			"scheme"					: "Scheme",
+			"host"						: "Dominio / Subdomain",
+			"host_placeholder"			: "dominio.com",
+			"host_help"					: "Sólo se admite el formato <code>subdominio.dominio.com</code> y <code>dominio.com</code> (subdominio o root domains).",
+			"custom_index_url"			: "Index url personalizada",
+			"custom_index_url_help"		: "Redirige a una url específica cuando los visitantes aterrizan en el index de tu dominio.",
+			"custom_index_url_placeholder": "https://dominio.com/",
+			"create"					: "Agregar Dominio"
+		},
+
+		"success_message": {
+			"created"					: "El Dominio se ha creado!"
+		}
+	},
+
+	"admin_domain_update": {
+		"title"							: "Actualizar el Dominio",
+		"header"						: "Actualizar el Dominio"
+	},
+
+	"admin_settings": {
+		"title"							: "Configuración del Website",
+		"menu"							: "Configuración del Website",
+		"header"						: "Configuración del Website",
+		"documentation"					: "Por favor leer la <a href=\"https://altumco.de/phpbiolinks-docs\">Documentación</a> para mas info sobre cómo se configura.",
+
+		"tab": {
+			"main"						: "Principal",
+			"links"						: "Links",
+			"payment"					: "Pagos",
+			"business"					: "Negocio",
+			"facebook"					: "Facebook Login",
+			"captcha"					: "Google Recaptcha",
+			"ads"						: "Ads",
+			"socials"					: "Sociales",
+			"smtp"						: "SMTP",
+			"custom"					: "JS / CSS Personalizados",
+			"email_notifications"		: "Notificación por Email",
+			"license"					: "Licencia"
+		},
+
+		"main": {
+			"title"						: "Título del website",
+			"default_language"			: "Lenguaje por defecto",
+			"default_language_help"		: "Para agregar más lenguajes, leer la documentación.",
+			"logo"						: "Logo",
+			"logo_help"					: "jpg, jpeg, png y svg aceptados. Tamaño recomendado: Altura Máx de 40px y transparente.",
+			"logo_remove"				: "Quitar Logo",
+			"favicon"					: "Favicon",
+			"favicon_help"				: "jpg, jpeg, png y ico aceptados.",
+			"favicon_remove"			: "Quitar Favicon",
+			"email_confirmation"		: "Confirmación de Registro vía Email",
+			"register_is_enabled"		: "El Registro Está Activo",
+			"register_is_enabled_help"	: "Desactivado / Activar Registro de Usuario dependiendo del uso de la plataforma.",
+			"default_timezone"			: "Timezone por defecto",
+			"index_url"					: "Index URL Personalizada",
+			"index_url_help"			: "Personaliza la index url ( ej: https://google.com/ ) si quieres desactivar por completo la landing page por defecto del producto. Es útil cuando quieres tener tu propia landing page. Dejar vacío para desactivar.",
+			"terms_and_conditions_url"		: "URL de Términos y Condiciones",
+			"terms_and_conditions_url_help"	: "Link a los términos y condiciones del servicio. Puede ser un link creado con el creador de páginas en la barra lateral.",
+			"privacy_policy_url"			: "URL de Política de Privacidad",
+			"privacy_policy_url_help"		: "Link a la política de privacidad del servicio. Puede ser un link creado con el Creador de Páginas de la barra lateral."
+		},
+
+		"links": {
+			"shortener_is_enabled"		: "Activar el Systema Acortador de Links",
+			"shortener_is_enabled_help"	: "Activar el sistema acortador de links permitirá a los usuarios acortar links en sus proyectos.",
+
+			"domains_is_enabled"		: "Activar el sistema de Dominios Personalizados",
+			"domains_is_enabled_help"	: "Activar esto permitirá a tus usuarios agregar sus propios dominios.",
+
+			"blacklisted_domains"		: "Dominios bloqueados",
+			"blacklisted_domains_help"	: "Separar los dominios con coma ( dominio.com, domain2.com .etc ). Los usuarios no podran acortar / agregar los dominios incluidos en esta lista.",
+			"blacklisted_keywords"		: "Palabras clave bloqueadas",
+			"blacklisted_keywords_help"	: "Separar los dominios con coma ( palabra1, palabra2, palabra3 .etc ). Los usuarios no pueden usar ninguna URL con las palabras incluidas en la lista.",
+
+			"phishtank"					: "Phishtank API",
+			"phishtank_help"			: "Phishtank.com es una base de datos online de URL's usadas para phishing. La integración activará la verificación de URL's antes de que el usuario trate de acortarla y asegurarse de que no es un sitio de phishing.",
+			"phishtank_is_enabled"		: "Activado",
+			"phishtank_api_key"			: "Phishtank API Key",
+			"phishtank_api_key_help"	: "Ingresa a la <a href=\"https://altumcode.link/biolinks-docs\">Documentación</a> para saber cómo obtener tu key.",
+
+			"google_safe_browsing"					: "Google Safe Browsing API",
+			"google_safe_browsing_help"				: "Esta integración verifica las URL's antes que el usuario trate de acortarlas, asegurándose que no sea sospechosas o sitios peligrosos.",
+			"google_safe_browsing_is_enabled"		: "Activado",
+			"google_safe_browsing_api_key"			: "Google Safe Browsing API Key",
+			"google_safe_browsing_api_key_help"		: "Leer la  <a href=\"https://altumcode.link/biolinks-docs\">Documentación</a> para saber cómo obtener tu key."
+		},
+
+		"payment": {
+			"is_enabled"				: "El Sistema de Pagos está Activo",
+			"is_enabled_help"			: "Desactivando el sistema de pagos no permitirá al usuario mejorar sus cuentas o ver información relacionada a los pagos.",
+			"type"						: "Tipo",
+			"type_help"					: "",
+			"type_one_time"				: "Una Vez",
+			"type_recurring"			: "Recurrente",
+			"type_both"					: "Ambas",
+			"brand_name"				: "Nombre de Marca",
+			"brand_name_help"			: "El nombre de Marca será usado para mostrar la marca cuando los usuarios compran vía gates de pago. (ej: paypal)",
+			"currency"					: "Moneda",
+			"currency_help"				: "Código de Moneda para el pago (ex: USD).",
+			"codes_is_enabled" 			: "Activar Cupones de Descuento/Canje",
+			"codes_is_enabled_help" 	: "Activando el sistema de Cupones de Descuento y Canje permite a los usuarios agregar un Cupón de descuento creado desde el Panel de Admin, antes del checkout.",
+
+			"paypal"					: "Paypal Settings",
+			"paypal_is_enabled"			: "Activo",
+			"paypal_mode"				: "Modo",
+			"paypal_mode_help"			: "live - producción, sandbox - para testing",
+			"paypal_client_id"			: "Client Id",
+			"paypal_secret"				: "Secret",
+
+			"stripe"					: "Stripe Settings",
+			"stripe_is_enabled"			: "Activo",
+			"stripe_publishable_key"	: "Publishable Key",
+			"stripe_secret_key"			: "Secret Key",
+			"stripe_webhook_secret"		: "Webhook Secret",
+
+			"offline_payment"			: "Pagos Offline",
+			"offline_payment_is_enabled": "Activar pagos Offline",
+			"offline_payment_instructions"		: "Instrucciones",
+			"offline_payment_instructions_help"	: "Instrucciones de pago para que el usuario lea, antes de enviar su pago."
+		},
+
+		"business": {
+			"header"					: "Detalles del Negocio",
+			"subheader"					: "Estos detalles serán usados para generar las facturas de pago para el usuario.",
+			"invoice_is_enabled"		: "El sistema de facturas está Activo",
+			"invoice_is_enabled_help"	: "Esta opción determina si el usuario podrá ver las facturas de sus pagos o no.",
+			"name"						: "Nombre",
+			"address"					: "Dirección",
+			"city"						: "Ciudad",
+			"county"					: "País",
+			"zip"						: "ZIP",
+			"country"					: "País",
+			"email"						: "Email",
+			"phone"						: "Teléfono",
+			"tax_type"					: "Tipo de Impuesto",
+			"tax_type_placeholder"		: "ex: VAT",
+			"tax_id"					: "ID Impuesto",
+			"custom_key_one"			: "Custom Field Key",
+			"custom_value_one"			: "Custom Field Value",
+			"custom_key_two"			: "Custom Field Key",
+			"custom_value_two"			: "Custom Field Value"
+		},
+
+		"captcha": {
+			"recaptcha"					: "Google ReCaptcha",
+			"recaptcha_is_enabled"		: "Activar Google ReCaptcha",
+			"recaptcha_is_enabled_help"	: "Cuando Google Recaptcha está desactivado, hay disponible un captcha más básico.",
+			"recaptcha_public_key"		: "Public Key",
+			"recaptcha_private_key"		: "Private Key"
+		},
+
+		"facebook": {
+			"is_enabled"				: "Activo",
+			"app_id"					: "App Id",
+			"app_secret"				: "App Secret"
+		},
+
+		"ads": {
+			"ads_help"					: "Estos campos aceptan texto o html.",
+
+			"header"					: "Header",
+			"footer"					: "Footer",
+			"header_biolink"			: "Microweb page header",
+			"footer_biolink"			: "Microweb page footer"
+		},
+
+		"socials": {
+			"socials_help"				: "Links a Redes Sociales para mostrar en el footer de la microweb. Ingresa solo id / nombre de la página"
+		},
+
+		"smtp": {
+			"host"						: "Anfitrión",
+			"host_help"					: "Si no hay valores ingresados el sistema tratará de usar el la función de mail por defecto.",
+			"from"						: "De: Email",
+			"from_help"					: "El email desde donde el usuario recibirá el email / el 'reply-to' email ( registro / activación de email / password perdido )",
+			"encryption"				: "Encriptación",
+			"port"						: "Port",
+			"auth"						: "Authentication",
+			"username"					: "Username",
+			"password"					: "Password"
+		},
+
+		"custom": {
+			"head_js"                   : "Head Javascript",
+			"head_js_help"              : "Agrega tu propio código JS para tracking ( ej: Google Analytics ).",
+			"head_css"                  : "CSS Personalizado",
+			"head_css_help"             : "Agrega CSS personalizado en caso de que quieras sobre-escribir un estilo del website."
+		},
+
+		"email_notifications": {
+			"emails"							: "Emails para enviar notificaciones",
+			"emails_help"				: "Los emails que recibirán notificaciones cuando se realiza alguna de las acciones de más abajo. Agregar emails válidos separados por coma.",
+			"new_user"							: "Nuevo Usuario",
+			"new_user_help"						: "Recibir un email cuando un nuevo usuario se registra al website.",
+			"new_payment"						: "Nuevo Pago",
+			"new_payment_help"					: "Recibir un email cuando un nuevo pago es procesaso exitosamente."
+		},
+
+		"license": {
+			"license"							: "Licencia / Código de Compra",
+			"license_help"						: "La Licencia que recibes por comprar el producto.",
+			"type"								: "Tipo de Licencia",
+			"new_license"						: "Nueva Licencia",
+			"new_license_help"					: "Dejar vacío si no quieres cambiar esto. Útil cuando cambias la licencia o la mejoras (ej: de una Licencia Regular a una Extendida )"
+		},
+
+		"button": {
+			"test_email"						: "Probar Configuración del Email",
+			"test_email_help"					: "Enviará un email al campo <strong>From</strong> establecido arriba. Asegúrate de primero guardar la configuración!"
+		},
+
+		"success_message": {
+			"saved"								: "La configuración se ha guardado!",
+			"email"								: "El email de prueba se ha enviado exitosamente!"
+		},
+
+		"error_message": {
+			"email"								: "El email de prueba ha fallado: %s"
+		}
+
+	},
+
+	"admin_statistics": {
+		"title"							: "Website Statistics",
+		"menu"							: "Estadísticas",
+		"header"						: "Estadísticas",
+		"subheader"						: "Mira la evolución de tu website en el tiempo.",
+
+		"payments": {
+			"menu"						: "Pagos",
+			"header"					: "Ventas",
+			"subheader"					: "Este website a generado %s %s ganancias en %s ventas.",
+			"no_payments"				: "No hay pagos registrados para este rango de fechas.",
+			"chart_total_payments"		: "Ventas totales",
+			"chart_total_amount"		: "Ganancias totales"
+		},
+
+		"growth": {
+			"menu"						: "Crecimiento",
+
+			"users": {
+				"header"				: "Nuevo usuario registrado",
+				"chart"					: "Usuarios"
+			},
+
+			"projects": {
+				"header"				: "Nuevos proyectos",
+				"chart"					: "Proyectos"
+			},
+
+			"links": {
+				"header"				: "Nuevos links",
+				"chart"					: "Links"
+			},
+
+			"users_logs": {
+				"header"				: "Usuarios activos",
+				"chart"					: "Usuarios activos"
+			},
+
+			"redeemed_codes": {
+				"header"				: "Cupones canjeados",
+				"chart"					: "Cupones"
+			}
+		},
+
+		"links": {
+			"menu"							: "Links",
+
+			"track_links": {
+				"header"					: "Analíticas de Links",
+				"subheader"					: "Cantidad total de visitas únicas por tipo de link de todos los links en el sistema.",
+				"chart_track_links"			: "Visitas"
+			}
+		}
+	},
+
+	"notfound": {
+		"title"							: "No encontrado",
+		"header"						: "404 Not Found",
+		"subheader"						: "No se encontró la página."
+	},
+
+	"project_create_modal": {
+		"header"						: "Crear Nuevo Proyecto",
+		"subheader"						: "Un proyecto puede administrar multiples microwebs y links cortos.",
+
+		"input": {
+			"name"						: "Nombre"
+		},
+
+		"success_message": {
+			"created"					: "Se ha creado el nuevo proyecto!"
+		},
+
+		"error_message": {
+			"projects_limit"			: "Tu plan no permite crear más proyectos 😔."
+		}
+	},
+
+	"project_update_modal": {
+		"header"						: "Actualizar Proyecto",
+		"subheader"						: "Actualiza los detalles de tu proyecto.",
+
+		"input": {
+			"name"						: "Nombre"
+		},
+
+		"success_message": {
+			"updated"					: "El proyecto se ha actualizado!"
+		}
+	},
+
+	"project_delete_modal": {
+		"header"						: "Borrar Proyecto",
+		"subheader"						: "Toda la info relacionada al proyecto será eliminada. Esta acción no se puede deshacer.",
+
+		"success_message"				: "El proyecto se ha borrado exitosamente!"
+	},
+
+	"create_link_modal": {
+		"header"						: "Crear un Nuevo Link",
+		"subheader"						: "Acorta todos los links que quieras de forma sencilla. Más configuraciones disponibles después de crear el link.",
+
+		"input": {
+			"location_url"				: "Url Larga",
+			"location_url_placeholder"	: "https://dominios.com/demo/url-larga-demo",
+			"url"						: "Url Corta",
+			"url_placeholder_custom"	: "tu-alias-personalizado",
+			"url_placeholder"			: "generar un alias aleatorio",
+			"url_help"					: "Dejar vacío para generar uno aleatorio.",
+
+			"submit"					: "Acortar url"
+		},
+
+		"error_message": {
+			"links_limit"				: "Tu plan alcanzó el máximo de links permitidos.",
+			"url_exists"				: "La Url corta seleccionada ya existe. Por favor, elige una diferente."
+		}
+	},
+
+	"create_biolink_modal": {
+		"header"						: "Crear una Nueva Microweb",
+		"subheader"						: "Más configuraciones disponibles después de creada la microweb.",
+
+		"input": {
+			"url"						: "Microweb URL",
+			"url_placeholder_custom"	: "tu-alias-personalizado",
+			"url_placeholder"			: "generar un alias aleatório",
+			"url_help"					: "Dejar vacío para generar uno aleatorio.",
+
+			"submit"					: "Crear microweb"
+		},
+
+		"error_message": {
+			"biolinks_limit"			: "Tu plan alcanzó el máximo de microwebs permitido.",
+			"url_exists"				: "La URL seleccionada para la microweb ya existe. Por favor, elige una diferente."
+		}
+	},
+
+	"create_biolink_link_modal": {
+		"header"						: "Crear un Nuevo Link",
+		"subheader"						: "Agrega un nuevo link para tu microweb. Más configuraciones disponibles después de crear el link.",
+
+		"input": {
+			"url"						: "Url corta",
+			"url_placeholder"			: "tu-alias-personalizado",
+			"url_help"					: "Dejar vacío para generar uno aleatorio.",
+			"location_url"				: "Url Destino",
+			"location_url_placeholder"	: "https://dominio.com/demo/demo-url",
+			"name"						: "Nombre",
+			"text_color"				: "Color de Texto Color",
+			"background_color"			: "Color de Fondo",
+			"outline"					: "Borde",
+			"icon"						: "Ícono",
+			"icon_placeholder"			: "ej: fab fa-instagram",
+			"icon_help"					: "FontAwesome icon class. Dejar vacío si no quieres ícono.",
+			"image"						: "URL de Imagen Miniatura",
+			"image_placeholder"			: "ej: https://dominio.com/imagen.jpg",
+			"image_help"				: "Dejar vacío si no quieres imagen miniatura.",
+			"border_radius"				: "Radio del Borde",
+			"border_radius_straight"	: "Recto",
+			"border_radius_round"		: "Redondo",
+			"border_radius_rounded"		: "Redondeado",
+			"animation"					: "Animación",
+
+			"submit"					: "Agregar url"
+		},
+
+		"error_message": {
+			"links_limit"				: "Tu plan alcanzó el máximo de links permitidos.",
+			"url_exists"				: "La Url Corta seleccionada ya existe. Por favor elige una diferente."
+		}
+	},
+
+	"create_biolink_text_modal": {
+		"header"						: "Crear un Bloque de Texto",
+		"subheader"						: "Agrega un título y descripción para el Bloque de Texto",
+
+		"input": {
+			"title"						: "Título",
+			"description"				: "Descripción",
+			"title_text_color"			: "Color de Título",
+			"description_text_color"	: "Color de la Descripción",
+
+			"submit"					: "Agregar Bloque"
+		}
+	},
+
+	"create_biolink_youtube_modal": {
+		"header"						: "Agregar un video de Youtube",
+		"subheader"						: "Copia y pega la URL del video y se mostrará el video en tu microweb.",
+
+		"input": {
+			"location_url"				: "URL de Video YouTube",
+			"location_url_placeholder"	: "https://www.youtube.com/watch?v=2a8PgqWrc_4",
+
+			"submit"					: "Agregar Video"
+		}
+	},
+
+	"create_biolink_twitch_modal": {
+		"header"						: "Agregar un video Twitch",
+		"subheader"						: "Copia y pega la URL de tu video Twitch y se mostrará el video en tu microweb.",
+
+		"input": {
+			"location_url"				: "URL Twitch",
+			"location_url_placeholder"	: "https://www.twitch.tv/dota2ti",
+
+			"submit"					: "Agregar Video"
+		}
+	},
+
+	"create_biolink_vimeo_modal": {
+		"header"						: "Agregar un video de Vimeo",
+		"subheader"						: "Copia y pega la URL del video Vimeo y se mostrará el video en tu microweb.",
+
+		"input": {
+			"location_url"				: "URL Vimeo",
+			"location_url_placeholder"	: "https://vimeo.com/43338103",
+
+			"submit"					: "Agregar Video"
+		}
+	},
+
+	"create_biolink_soundcloud_modal": {
+		"header"						: "Agregar una canción de Soundcloud",
+		"subheader"						: "Copia y pega la URL de la canción en Soundcloud y se podrá escuchar en tu microweb.",
+
+		"input": {
+			"location_url"				: "Soundcloud URL",
+			"location_url_placeholder"	: "https://soundcloud.com/octobersveryown/duppy-freestyle",
+
+			"submit"					: "Agregar Canción"
+		}
+	},
+
+	"create_biolink_spotify_modal": {
+		"header"						: "Agregar una Canción / Album de Spotify",
+		"subheader"						: "Copia y pega la URL de tu Canción, Album, Podcast, Show o Episodio en Spotify y se podrá escuchar en tu microweb.",
+
+		"input": {
+			"location_url"				: "Spotify URL",
+			"location_url_placeholder"	: "https://open.spotify.com/track/5ry2OE6R2zPQFDO85XkgRb",
+
+			"submit"					: "Agregar Enlace"
+		}
+	},
+
+	"create_biolink_tiktok_modal": {
+		"header"						: "Agregar un Video de TikTok",
+		"subheader"						: "Copia y pega la URL de TikTok y podrás ver el video en tu microweb.",
+
+		"input": {
+			"location_url"				: "URL de Video TikTok",
+			"location_url_placeholder"	: "https://www.tiktok.com/@charlidamelio/video/6808693617306111237",
+
+			"submit"					: "Agregar TikTok"
+		}
+	},
+
+	"create_biolink_mail_modal": {
+		"header"						: "Agregar un formulario de Registro",
+		"subheader"						: "Consigue emails de tu audiencia para Mailchimp o vía Webhook.",
+
+		"input": {
+			"email_placeholder"			: "Email",
+			"button_text"				: "Texto del botón",
+			"success_text"				: "Mensaje de agradecimiento",
+			"show_agreement"			: "Mostrar Acuerdo",
+			"show_agreement_help"		: "Requerir al usuario que confirme el Acuerdo marcando el checkbox.",
+			"agreement_url"				: "URL del Acuerdo",
+			"agreement_text"			: "Texto del Acuerdo",
+
+			"mailchimp_api"				: "Mailchimp API Key",
+			"mailchimp_api_help"		: "Dejar vacío para desactivar la integración con mailchimp. Cómo obtener estos detalles: <a href=\"https://mailchimp.com/developer/guides/manage-subscribers-with-the-mailchimp-api/#Before_you_start\" target=\"_blank\">Documentación de MailChimp</a>",
+			"mailchimp_api_list"		: "Lista de Mailchimp",
+			"mailchimp_api_list_help"	: "",
+			"webhook_url"				: "Webhook URL",
+			"webhook_url_help"			: "Dónde enviar los emails registrados. Dejar vacío para desactivar.",
+
+			"submit"					: "Agregar formulario"
+		}
+	},
+
+	"datatable": {
+		"sEmptyTable"					: "No hay datos diponibles en esta tabla",
+		"sInfo"							: "Mostrando _START_ de _END_ de _TOTAL_ entradas",
+		"sInfoEmpty"					: "Mostrando 0 a 0 de 0 entries",
+		"sInfoFiltered"					: "(filtrado de _MAX_ entradas totales)",
+		"sInfoPostFix"					: "",
+		"sInfoThousands"				: ",",
+		"sLengthMenu"					: "_MENU_",
+		"sLoadingRecords"				: "Cargando...",
+		"sProcessing"					: "<div class=\"spinner-grow\"><span class=\"sr-only\">Cargando...</span></div>",
+		"searchPlaceholder"				: "Buscar.",
+		"search"						: "",
+		"sZeroRecords"					: "No se encontraron registros que coincidan",
+		"oPaginate": {
+			"sFirst"					: "Primero",
+			"sLast"						: "Último",
+			"sNext"						: "Siguiente",
+			"sPrevious"					: "Anterior"
+		},
+		"oAria": {
+			"sSortAscending"			: ": activar para ordenar de forma ascendente",
+			"sSortDescending"			: ": activar para ordenar de forma descendente"
+		}
+	}
+}
