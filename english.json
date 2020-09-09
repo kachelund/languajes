@@ -209,39 +209,39 @@
 			"deep_links"                : "<i class=\"fa fa-fw fa-sm fa-anchor mr-1\"></i> Deep linking",
 			"deep_links_help"			: "Provides the ability to enter deep links, like: steam://rungameid/id",
 			"no_ads"                    : "<i class=\"fa fa-fw fa-sm fa-eye-slash mr-1\"></i> No Ads",
-			"no_ads_help"				: "You won't see any ads on the platform and neither will ads be placed on your biolink pages",
-			"removable_branding"		: "<i class=\"fa fa-fw fa-sm fa-eye-slash mr-1\"></i> Removable Biolinks Branding",
-			"removable_branding_help"	: "All the branding will be removed from your created Biolinks",
-			"custom_branding"			: "<i class=\"fa fa-fw fa-sm fa-ad mr-1\"></i> Custom Biolinks Branding",
-			"custom_branding_help"		: "Change and whitelabel the branding of your Biolinks",
-			"custom_colored_links"		: "<i class=\"fa fa-fw fa-sm fa-paint-brush mr-1\"></i> Custom biolinks Colors",
-			"custom_colored_links_help"	: "You can choose your own custom colors for links inside of the biolink pages",
+			"no_ads_help"				: "You won't see any ads on the platform and neither will ads be placed on your microweb",
+			"removable_branding"		: "<i class=\"fa fa-fw fa-sm fa-eye-slash mr-1\"></i> Removable Microweb Branding",
+			"removable_branding_help"	: "All the branding will be removed from your created Microwebs",
+			"custom_branding"			: "<i class=\"fa fa-fw fa-sm fa-ad mr-1\"></i> Custom Microweb Branding",
+			"custom_branding_help"		: "Change and whitelabel the branding of your Microweb",
+			"custom_colored_links"		: "<i class=\"fa fa-fw fa-sm fa-paint-brush mr-1\"></i> Custom link Colors",
+			"custom_colored_links_help"	: "You can choose your own custom colors for links inside of the microweb pages",
 			"statistics"				: "<i class=\"fa fa-fw fa-sm fa-chart-bar mr-1\"></i> Indepth Statistics",
 			"statistics_help"			: "You get access to more advanced statistics for all your links",
 			"google_analytics"			: "<i class=\"fab fa-fw fa-sm fa-google mr-1\"></i> Google Analytics",
-			"google_analytics_help"		: "Easy google analytics integration for your biolink pages",
+			"google_analytics_help"		: "Easy google analytics integration for your microweb page",
 			"facebook_pixel"			: "<i class=\"fab fa-fw fa-sm fa-facebook mr-1\"></i> Facebook Pixel",
-			"facebook_pixel_help"		: "Easy Facebook Pixel integration for your biolink pages",
-			"custom_backgrounds"		: "<i class=\"fa fa-fw fa-sm fa-fill mr-1\"></i> Custom Biolinks Backgrounds",
-			"custom_backgrounds_help"	: "You can add your own custom Biolink page backgrounds",
+			"facebook_pixel_help"		: "Easy Facebook Pixel integration for your microweb page",
+			"custom_backgrounds"		: "<i class=\"fa fa-fw fa-sm fa-fill mr-1\"></i> Custom Microweb Backgrounds",
+			"custom_backgrounds_help"	: "You can add your own custom Microweb page backgrounds",
 			"verified"					: "<i class=\"fa fa-fw fa-sm fa-check-circle mr-1\"></i> Verified Checkmark",
-			"verified_help"				: "You will get the verified checkmark for all your biolink pages",
+			"verified_help"				: "You will get the verified checkmark for all your microwebs",
 			"scheduling"				: "<i class=\"fa fa-fw fa-sm fa-clock mr-1\"></i> Links Scheduling",
 			"scheduling_help"			: "Prepare all your links to go live when you specify",
 			"seo"						: "<i class=\"fa fa-fw fa-sm fa-search-plus mr-1\"></i> SEO",
-			"seo_help"					: "Customize the meta tags for your biolink pages",
+			"seo_help"					: "Customize the meta tags for your microweb",
 			"utm"						: "<i class=\"fa fa-fw fa-sm fa-key mr-1\"></i> UTM Parameters",
 			"utm_help"					: "Easily adjust the UTM parameters for all your links",
 			"socials"					: "<i class=\"fa fa-fw fa-sm fa-hashtag mr-1\"></i> Socials",
-			"socials_help"				: "Get access to add quick social links in the footer of your biolink page",
+			"socials_help"				: "Get access to add quick social links in the footer of your microweb",
 			"fonts"						: "<i class=\"fa fa-fw fa-sm fa-pen-nib mr-1\"></i> Fonts",
-			"fonts_help"				: "Get access to multiple fonts to use for your biolink page",
+			"fonts_help"				: "Get access to multiple fonts to use for your microweb",
 
-			"unlimited_projects_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Unlimited Projects",
-			"projects_limit"			: "<strong>%s</strong> Projects",
+			"unlimited_projects_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Multiple Projects",
+			"projects_limit"			: "<strong>%s</strong> Project/s",
 
-			"unlimited_biolinks_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Unlimited Biolink Pages",
-			"biolinks_limit"			: "<strong>%s</strong> Biolink Pages",
+			"unlimited_biolinks_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Multiple Microwebs",
+			"biolinks_limit"			: "<strong>%s</strong> Microwebs",
 
 			"unlimited_links_limit"		: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Unlimited Shorted Links",
 			"links_limit"				: "<strong>%s</strong> Shorted Links",
@@ -459,7 +459,7 @@
 		"title"							: "Domains",
 		"menu"							: "Domains",
 		"header"						: "Your custom domains",
-		"subheader"						: "Here you can add your own custom domain to use with your biolink pages.",
+		"subheader"						: "Here you can add your own custom domain to use with your microweb.",
 
 		"domains": {
 			"total"						: "Total links",
@@ -751,15 +751,15 @@
 		},
 
 		"projects": {
-			"header"					: "Your Projects",
-			"subheader"					: "A project can contain multiple Biolink Pages or Shortened links.",
+			"header"					: "Your Project/s",
+			"subheader"					: "A project can contain multiple Microwebs or Shortened links.",
 			"create"					: "Create Project",
 
 			"name"						: "Name",
 			"domain"					: "Domain",
 			"date"						: "Created",
 
-			"no_data"					: "No active projects..",
+			"no_data"					: "No active projects.",
 			"no_data_help"				: "Create one now"
 		}
 	},
@@ -795,10 +795,10 @@
 	},
 
 	"link": {
-		"branding"							: "🔥 by BioLink",
+		"branding"							: "🔥 by Microweb.me",
 		"title"								: "%s Link",
 		"breadcrumb_link"					: "Link",
-		"breadcrumb_biolink"				: "Biolink",
+		"breadcrumb_biolink"				: "Microweb.me",
 
 		"header": {
 			"header"						: "%s",
@@ -807,7 +807,7 @@
 
 			"settings_tab"					: "Settings",
 			"links_tab"						: "Links",
-			"biolinks_settings"				: "Back to BioLink"
+			"biolinks_settings"				: "Back to Microweb.me"
 		},
 
 		"settings": {
@@ -856,7 +856,7 @@
 			"seo_title"						: "Page title",
 			"seo_title_help"				: "Completely change the page title to a custom one that you are setting here.",
 			"seo_meta_description"			: "Meta description",
-			"seo_meta_description_help"		: "Set a custom meta description for your biolink page to rank better in search engines.",
+			"seo_meta_description_help"		: "Set a custom meta description for your microweb page to rank better in search engines.",
 			"utm_header"					: "UTM Parameters",
 			"utm_medium"					: "Medium",
 			"utm_campaign"					: "The campaign will be automatically set for each link in particular based on the name of the link.",
@@ -1013,7 +1013,7 @@
 		},
 
 		"biolink": {
-			"name"                          : "Biolink",
+			"name"                          : "Microweb",
 			"icon"							: "fa fa-fw fa-hashtag",
 			"color"							: "#0089ff",
 
@@ -1091,31 +1091,31 @@
 	},
 
 	"index": {
-		"title"							: "Multiple Bio Links for Instagram",
-		"header"						: "Get the most of your<br />Instagram Bio Link",
-		"subheader"						: "Create shorted links, unique biolink pages and get proper statistics of your visitors.",
+		"title"							: "Microweb.me for Instagram",
+		"header"						: "Get the most of your<br />Instagram Link in bio",
+		"subheader"						: "Create shorted links, unique microwebs and get proper statistics of your visitors.",
 		"sign_up"						: "Get Started ⚡️",
 		"breadcrumb"					: "Home",
 		"is_custom_domain"				: "Custom domain",
 
 		"presentation": {
-			"header"					: "Create beautiful <u>biolink pages</u>",
-			"subheader"					: "Create and manage multiple Biolink Pages for your team from a single dashboard."
+			"header"					: "Create beautiful <u>microwebs</u>",
+			"subheader"					: "With PRO subscription  reate and manage multiple Microwebs for your team from a single dashboard."
 		},
 
 		"presentation2": {
-			"header"					: "Manage multiple projects",
+			"header"					: "Become a Pro and manage multiple projects",
 			"subheader"					: "One project for you, one for your friend, one for your company. One account is all you need."
 		},
 
 		"presentation3": {
-			"header"					: "Biolinks & Shorted links",
+			"header"					: "Microweb & Shorted links",
 			"subheader"					: "Yes! You can use our service as a shortener as well."
 		},
 
 		"presentation4": {
 			"header"					: "Bring creativity to life",
-			"subheader"					: "Add your own touch to your biolinks page with our editor and stand out from the crowd."
+			"subheader"					: "Add your own touch to your microweb with our editor and stand out from the crowd."
 		},
 
 		"presentation5": {
@@ -1305,8 +1305,8 @@
 
 			"projects_limit"			: "Total Projects Limit",
 			"projects_limit_help"		: "Set -1 for unlimited.",
-			"biolinks_limit"			: "Total Biolinks Limit",
-			"biolinks_limit_help"		: "The total amount of biolink pages that a user can create. Set -1 for unlimited.",
+			"biolinks_limit"			: "Total Microwebs Limit",
+			"biolinks_limit_help"		: "The total amount of microwebs that a user can create. Set -1 for unlimited.",
 			"links_limit"				: "Total Links Limit",
 			"links_limit_help"			: "The total amount of links that a user can create (shorted links). Set -1 for unlimited.",
 			"domains_limit"				: "Total Custom Domains Limit",
@@ -1320,29 +1320,29 @@
 			"no_ads"					: "No Ads",
 			"no_ads_help"				: "Enabling this will make all people having this package to not see any ads.",
 			"removable_branding"		: "Removable Footer Branding",
-			"removable_branding_help"	: "This gives the option for people to remove branding from the biolinks footer.",
+			"removable_branding_help"	: "This gives the option for people to remove branding from the microweb footer.",
 			"custom_branding"			: "Custom Footer Branding",
-			"custom_branding_help"		: "This gives the option for people to add their custom branding for the biolinks footer.",
+			"custom_branding_help"		: "This gives the option for people to add their custom branding for the microweb footer.",
 			"custom_colored_links"		: "Colored Links",
-			"custom_colored_links_help"	: "Gives the user the ability to customize the color of their biolinks links",
+			"custom_colored_links_help"	: "Gives the user the ability to customize the color of their microweb links",
 			"statistics"				: "Advanced Statistics",
 			"statistics_help"			: "Gives the user the ability to check more in depth statistics and select the time frame",
 			"google_analytics"			: "Google Analytics",
-			"google_analytics_help"		: "Gives the user the ability to add Google Analytics on their biolinks pages.",
+			"google_analytics_help"		: "Gives the user the ability to add Google Analytics on their Microweb.",
 			"facebook_pixel"			: "Facebook Pixel",
-			"facebook_pixel_help"		: "Gives the user the ability to add Facebook Pixel on their biolinks pages.",
+			"facebook_pixel_help"		: "Gives the user the ability to add Facebook Pixel on their Microweb.",
 			"custom_backgrounds"		: "Custom Backgrounds",
-			"custom_backgrounds_help"	: "Gives the user the ability to add custom backgrounds on their biolinks pages ( colors, gradients and actual images ).",
+			"custom_backgrounds_help"	: "Gives the user the ability to add custom backgrounds on their Microweb ( colors, gradients and actual images ).",
 			"verified"					: "Verified Checkmark",
-			"verified_help"				: "Gives the user the verified checkmark on all their Biolink pages.",
+			"verified_help"				: "Gives the user the verified checkmark on all their Microweb.",
 			"scheduling"				: "Links Scheduling",
 			"scheduling_help"			: "Gives the user the ability to schedule links.",
 			"seo"						: "SEO",
-			"seo_help"					: "Gives the user the ability to change the Title and Meta Description of Biolink pages.",
+			"seo_help"					: "Gives the user the ability to change the Title and Meta Description of the Microweb.",
 			"utm"						: "UTM Parameters",
-			"utm_help"					: "Gives the user the ability to set global UTM parameters for all the links inside of a Biolink page.",
+			"utm_help"					: "Gives the user the ability to set global UTM parameters for all the links inside of a Microweb.",
 			"socials"					: "Socials",
-			"socials_help"				: "Gives the user the ability to add his social media accounts and be displayed below the biolink links.",
+			"socials_help"				: "Gives the user the ability to add his social media accounts and be displayed below the Microweb.",
 			"fonts"						: "Fonts",
 			"fonts_help"				: "Gives the user the ability to pick a font of his liking from the list of extra fonts."
 		}
@@ -1903,8 +1903,8 @@
 
 			"header"					: "Header",
 			"footer"					: "Footer",
-			"header_biolink"			: "Biolink page header",
-			"footer_biolink"			: "Biolink page footer"
+			"header_biolink"			: "Microweb page header",
+			"footer_biolink"			: "Microweb page footer"
 		},
 
 		"socials": {
@@ -2026,7 +2026,7 @@
 
 	"project_create_modal": {
 		"header"						: "Create New Project",
-		"subheader"						: "A project can manage multiple biolink pages and shorted links.",
+		"subheader"						: "A project can manage multiple microweb pages and shorted links.",
 
 		"input": {
 			"name"						: "Name"
@@ -2083,27 +2083,27 @@
 	},
 
 	"create_biolink_modal": {
-		"header"						: "Create a New Biolink Page",
-		"subheader"						: "More settings are available after the creation of the biolink.",
+		"header"						: "Create a New Microweb",
+		"subheader"						: "More settings are available after the creation of the microweb.",
 
 		"input": {
-			"url"						: "Biolink URL",
+			"url"						: "Microweb URL",
 			"url_placeholder_custom"	: "your-custom-alias",
 			"url_placeholder"			: "randomly generated alias",
 			"url_help"					: "Leave empty for a random generated one.",
 
-			"submit"					: "Create biolink page"
+			"submit"					: "Create Microweb.me/your-name"
 		},
 
 		"error_message": {
-			"biolinks_limit"			: "Your plan exceeded the maximum amount of biolinks.",
-			"url_exists"				: "Your selected Biolink Url already exists. Please choose a different one."
+			"biolinks_limit"			: "Your plan exceeded the maximum amount of microwebs.",
+			"url_exists"				: "Your selected Microweb.me Url already exists. Please choose a different one."
 		}
 	},
 
 	"create_biolink_link_modal": {
 		"header"						: "Create a New Link",
-		"subheader"						: "Aadd a new link to you biolink page. More settings are available after the creation of the link.",
+		"subheader"						: "Add a new link to you Microweb. More settings are available after the creation of the link.",
 
 		"input": {
 			"url"						: "Short Url",
