@@ -237,17 +237,17 @@
 			"fonts"						: "<i class=\"fa fa-fw fa-sm fa-pen-nib mr-1\"></i> Fuentes",
 			"fonts_help"				: "Consigue multiples tipografías para usar en tu microweb",
 
-			"unlimited_projects_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Proyectos Ilimitadss",
-			"projects_limit"			: "<strong>%s</strong> Proyectos",
+			"unlimited_projects_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Múltiples Proyectos (Pro)",
+			"projects_limit"			: "<strong>%s</strong> Proyecto/s",
 
-			"unlimited_biolinks_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Microwebs ilimitadas",
-			"biolinks_limit"			: "<strong>%s</strong> Microwebs",
+			"unlimited_biolinks_limit"	: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Múltiples Microwebs (Pro)",
+			"biolinks_limit"			: "<strong>%s</strong> Microweb/s",
 
 			"unlimited_links_limit"		: "<i class=\"fa fa-fw fa-infinity mr-1\"></i> Links Cortos Ilimitados",
 			"links_limit"				: "<strong>%s</strong> Links Cortos",
 
 			"unlimited_domains_limit"	: "<i class=\"fa fa-fw fa-globe mr-1\"></i> Dominios Ilimitados",
-			"domains_limit"				: "<strong>%s</strong> Dominios"
+			"domains_limit"				: "<strong>%s</strong> Dominio/s"
         }
 	},
 
@@ -751,7 +751,7 @@
 		},
 
 		"projects": {
-			"header"					: "Tus Proyectos",
+			"header"					: "Tu/s Proyecto/s",
 			"subheader"					: "Un proyecto puede contener múltiples microwebs o links cortos.",
 			"create"					: "Crear Proyecto",
 
@@ -774,7 +774,7 @@
 		},
 
 		"links": {
-			"header"						: "Links del Proyecto",
+			"header"						: "Tu Microweb y Links Cortos",
 			"create"						: "Crear",
 
 			"total"							: "Links Totales",
@@ -1104,7 +1104,7 @@
 		},
 
 		"presentation2": {
-			"header"					: "Administra múltiple microwebs y proyectos",
+			"header"					: "Administra múltiples microwebs y proyectos con la versión PRO",
 			"subheader"					: "Una microweb para ti, una para tu amigo, una microweb para tu negocio o compañía. Una cuenta es todo lo que necesitas."
 		},
 
