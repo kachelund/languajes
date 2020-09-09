@@ -1022,7 +1022,7 @@
 			"description_default"			: "",
 
 			"link": {
-				"name"                          : "Link",
+				"name"                          : "Link Corto",
 				"icon"							: "fa fa-fw fa-link",
 				"color"							: "#00526b",
 
