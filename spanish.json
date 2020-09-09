@@ -112,7 +112,7 @@
 			"year"						: "año",
 			"years"						: "años",
 			"time_ago"					: "%1$s %2$s atrás",
-			"time_until"				: "%1$s %2$s hasta",
+			"time_until"				: "Tienes %1$s %2$s hasta",
 
 			"long_days": {
 				"1"						: "Lunes",
