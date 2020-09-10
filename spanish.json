@@ -797,7 +797,7 @@
 	"link": {
 		"branding"							: "🔥 Microweb.me",
 		"title"								: "%s Link",
-		"breadcrumb_link"					: "Link corto",
+		"breadcrumb_link"					: "Link",
 		"breadcrumb_biolink"				: "Microweb.me",
 
 		"header": {
@@ -1084,7 +1084,7 @@
 		},
 
 		"link": {
-			"name"                          : "Link",
+			"name"                          : "Link corto",
 			"icon"							: "fa-link",
 			"color"							: "#00526b"
 		}
