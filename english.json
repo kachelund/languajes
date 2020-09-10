@@ -1091,15 +1091,15 @@
 	},
 
 	"index": {
-		"title"							: "Microweb.me for Instagram",
-		"header"						: "Get the most of your<br />Instagram Link in bio",
-		"subheader"						: "Create shorted links, unique microwebs and get proper statistics of your visitors.",
+		"title"							: "Microweb.me for everyone!",
+		"header"						: "Get the most of your<br />Microweb link in bio for your Socials",
+		"subheader"						: "Create unique Microwebs, shorted links and get daily statistics of your visitors.",
 		"sign_up"						: "Get Started ⚡️",
 		"breadcrumb"					: "Home",
 		"is_custom_domain"				: "Custom domain",
 
 		"presentation": {
-			"header"					: "Create beautiful <u>microwebs</u>",
+			"header"					: "Create beautiful <u>Microwebs</u>",
 			"subheader"					: "With PRO subscription  reate and manage multiple Microwebs for your team from a single dashboard."
 		},
 
