@@ -1018,7 +1018,7 @@
 			"color"							: "#0089ff",
 
 			"image_alt"						: "Avatar",
-			"title_default"					: "My unique page",
+			"title_default"					: "My unique microweb",
 			"description_default"			: "",
 
 			"link": {
@@ -1093,24 +1093,24 @@
 	"index": {
 		"title"							: "Microweb.me for everyone!",
 		"header"						: "Get the most of your<br />Microweb link in bio for your Socials",
-		"subheader"						: "Create unique Microwebs, shorted links and get daily statistics of your visitors.",
+		"subheader"						: "Create a unique Microweb, shorted links and get daily statistics of your visitors.",
 		"sign_up"						: "Get Started ⚡️",
 		"breadcrumb"					: "Home",
 		"is_custom_domain"				: "Custom domain",
 
 		"presentation": {
-			"header"					: "Create beautiful <u>Microwebs</u>",
-			"subheader"					: "With PRO subscription  reate and manage multiple Microwebs for your team from a single dashboard."
+			"header"					: "Create beautiful <u>Microweb</u>",
+			"subheader"					: "Manage your Microweb with a complete set of tools and beautiful dashboard."
 		},
 
 		"presentation2": {
-			"header"					: "Become a Pro and manage multiple projects",
-			"subheader"					: "One project for you, one for your friend, one for your company. One account is all you need."
+			"header"					: "Become a Pro and customize your campaing even more!",
+			"subheader"					: "Ready for the next step? Schedule links, get deep links for apps, integrate Facebook Pixel, Google Analytics and more!"
 		},
 
 		"presentation3": {
 			"header"					: "Microweb & Shorted links",
-			"subheader"					: "Yes! You can use our service as a shortener as well."
+			"subheader"					: "Yes! You can use our service as a shortener as well with daily statistics. Get 3 shorted links for FREE or become a PRO to get UNLIMITED shorted links."
 		},
 
 		"presentation4": {
